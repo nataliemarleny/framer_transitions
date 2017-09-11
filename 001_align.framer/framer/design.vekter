@@ -1,0 +1,35 @@
+{
+  "version" : 2,
+  "root" : {
+    "id" : "kP')S8)*",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "[@|=7fzT",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "kP')S8)*",
+        "width" : 320,
+        "y" : 0,
+        "deviceType" : "apple-iphone-5s-space-gray",
+        "type" : "apple-iphone-5s-space-gray",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "children" : [
+
+        ],
+        "height" : 568,
+        "fillType" : "color",
+        "targetName" : "canvas",
+        "fillColor" : "rgb(254, 254, 254)",
+        "name" : "canvas"
+      }
+    ]
+  }
+}

@@ -16,7 +16,7 @@ title = new TextLayer
 	wordSpacing: 0 # default 0
 	textAlign: "left" # left, right, center
 	textTransform: "capitalize" # uppercase, lowercase, capitalise
-	textDectoration: "none" # underline, overline, line-through
+	textDecoration: "none" # underline, overline, line-through
 	textIndent: 1
 	direction: "rtl"
 	# hmmm

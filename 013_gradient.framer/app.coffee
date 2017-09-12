@@ -12,13 +12,13 @@ blk = new Gradient
 layerA = new Layer
 	x: Align.center
 	y: Align.top(50)
-	borderRadius: 20
+	borderRadius: 100
 	gradient: blue
 
 layerB = new Layer
 	x: Align.center
 	y: Align.bottom (-50)
-	borderRadius: 20
+	borderRadius: 100
 	gradient: gray
 
 layerB.animate

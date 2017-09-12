@@ -8,7 +8,7 @@ Table of Contents
 * 003 Background Layer
 * 004 Canvas
 * 005 Color
-* ~~006 Compatibility = basically "Mac OS"~~
+* 006 Compatibility: basically "Mac OS"
 * 007 Defaults
 * 008 Device
 * 009 Draggable

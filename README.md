@@ -7,6 +7,14 @@ Reference for Framer Transitions
 | :---: | :--- |
 | ![gif of align transition](https://github.com/nataliemarleny/framer_transitions/blob/master/001_align.framer/001_align.gif)  | **Align** <ul><li> Align.bottom()</li><li> Align.center()</li><li> Align.left()</li><li> Align.right()</li><li> Align.top()</li></ul> **Offset** <ul><li> Align.bottom(-50)</li><li> Align.center(50)</li><li> Align.left(50)<li> Align.right(-50)</li><li> Align.top(50)</li></ul> |
 
+## 013 gradient
+
+| 013 demo | options [3] |
+| :---: | :--- |
+| ![gif of gradient transition](https://github.com/nataliemarleny/framer_transitions/blob/master/013_gradient.framer/013_gradient.gif) | :large_blue_circle: <ul><li> start: "#05F"</li><li> end: "#0DF"</li></ul> :black_circle:<ul><li> angle: 45</li><li> Animatable: YES</li></ul> |
+
+
+
 ## 018 pinchable
 
 | 018 demo | options [11] |

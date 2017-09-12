@@ -1,5 +1,35 @@
 # framer_transitions
-Reference for Framer Transitions
+Reference for Framer Transitions - Illustrated Framer Docs
+- Status: In Progress
+
+Table of Contents
+* [001 Align](#001-align-and-offset)
+* 002 Animation
+* 003 Background Layer
+* 004 Canvas
+* 005 Color
+* 006 Compatibility
+* 007 Defaults
+* 008 Device
+* 009 Draggable
+* 010 Events
+* 011 Extras
+* 012 FlowComponent
+* [013 Gradient](#013-gradient)
+* 014 Layer
+* 015 MIDIComponent
+* 016 Modules
+* 017 PageComonent
+* [018 Pinchable](#018-pinchable)
+* 019 Print
+* 020 RangeSliderComponent
+* 021 Screen
+* 022 ScrollComponent
+* 023 SliderComponent
+* 024 States
+* 025 TextLayer
+* 026 Utilities
+* 027 VideoLayer
 
 ## 001 align and offset
 

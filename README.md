@@ -7,7 +7,7 @@ Table of Contents
 * 002 Animation
 * [003 Background Layer](#003-backgroundlayer)
 * 004 Canvas
-* 005 Color
+* [005 Color](#005-color)
 * 006 Compatibility: basically "Mac OS"
 * 007 Defaults
 * 008 Device
@@ -42,6 +42,12 @@ Table of Contents
 | 003 demo | options [0] |
 | :---: | :--- |
 | ![gif of backgroundLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/003_backgroundLayer.framer/003_backgroundLayer.gif)  | Note: backgroundLayer is overridden by an artboard<br>If it has a parent, it will inherit the size of the parent |
+
+## 005 color
+
+| 005 demo | options [16] |
+| :---: | :--- |
+| ![gif of color](https://github.com/nataliemarleny/framer_transitions/blob/master/005_color.framer/005_color.gif)  | Colors in Framer are similar to SASS! <br><br>:art: <ul><li>bg.animate</li>- backgroundColor: Color.random()</ul>**Not Shown**<ul><li> lighten()</li><li> darken()</li><li> saturate()</li><li> desaturate()</li><li> grayscale()</li><li> gray()</li><li> alpha()</li><li> mix()</li></ul> :printer:<ul><li> isColor()</li><li> isColorObject()</li><li> toHexString()</li><li> toRgbString()</li></ul> |
 
 
 ## 009 draggable is in progress

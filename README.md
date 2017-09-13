@@ -11,7 +11,7 @@ Table of Contents
 * 006 Compatibility: basically "Mac OS"
 * 007 Defaults
 * 008 Device
-* 009 Draggable
+* [009 Draggable](#009-draggable-is-in-progress)
 * 010 Events
 * 011 Extras
 * 012 FlowComponent
@@ -43,13 +43,18 @@ Table of Contents
 | :---: | :--- |
 | ![gif of backgroundLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/003_backgroundLayer.framer/003_backgroundLayer.gif)  | Note: backgroundLayer is overridden by an artboard<br>If it has a parent, it will inherit the size of the parent |
 
+
+## 009 draggable is in progress
+
+| 009 demo | options [29] |
+| :---: | :--- |
+| ![gif of draggable](https://github.com/nataliemarleny/framer_transitions/blob/master/009_draggable.framer/009_draggable.gif)  | :arrow_up_down: :arrows_counterclockwise: <ul><li> .draggable.enabled = true</li></ul> :arrow_up_down: <ul><li> .draggable.horizontal = false</li><li> .draggable.speedY = 1.1 (< 1 is slower than mouse movement)</li><li> .draggable.constraints = </li> - y:100<br> - height: 50<li> print \<layer\>.draggable.constraintsOffset</li><li> print \<layer\>.draggable.isBeyondConstraints</li> <li> .draggable.overdrag = true</li><li> .draggable.overdragScale = 0.25</li><li> .draggable.bounce = true (default true)</li><li> .draggable.bounceOptions = </li> - friction: 40,<br> - tension: 200,<br> - tolerance: 0.0001<li> \<layer\>.draggable.on Events.DragMove :arrow_right:</li> - print.\<layer\>.draggable.direction</ul> :arrows_counterclockwise: <ul><li> .draggable.momentum = true (default true)</li><li> .draggable.momentumOptions = </li> - friction: 2.1<br> - tolerance: 0.1 <li> \<layer\>.draggable.on Events.DragMove :arrow_right:</li>- print \<layer\>.draggable.velocity<br>- print \<layer\>.draggable.angle</ul> **Not Shown** <ul><li> .draggable.vertical = false</li><li> .draggable.speedX = 0.5</li></ul> **To Add** <ul><li> angle</li><li> updatePosition()</li><li>directionLock</li><li> directionLockThreshold</li><li> pixelAlign</li><li> isDragging</li><li> isMoving</li><li> offset</li><li> layerStartPoint</li><li> cursorStartPoint</li><li> layerCursorOffset</li><li> propagateEvents</li></ul> |
+
 ## 013 gradient
 
 | 013 demo | options [3] |
 | :---: | :--- |
 | ![gif of gradient transition](https://github.com/nataliemarleny/framer_transitions/blob/master/013_gradient.framer/013_gradient2.gif) | :large_blue_circle: <ul><li> start: "#05F"</li><li> end: "#0DF"</li></ul> :black_circle:<ul><li> angle: 45</li><li> Animatable: YES</li></ul> |
-
-
 
 ## 018 pinchable
 

@@ -25,7 +25,7 @@ layerC.draggable.enabled = true
 layerA.draggable.horizontal = false
 
 # Disable vertical dragging
-# layerA.draggable.horizontal = false
+# layerA.draggable.vertical = false
 
 # Affect horizontal dragging speed
 # layerA.draggable.speedX = 0.5

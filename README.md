@@ -5,7 +5,7 @@ Reference for Framer Transitions - Illustrated Framer Docs
 Table of Contents
 * [001 Align](#001-align-and-offset)
 * 002 Animation
-* 003 Background Layer
+* [003 Background Layer](#003-backgroundlayer)
 * 004 Canvas
 * 005 Color
 * 006 Compatibility: basically "Mac OS"
@@ -36,6 +36,12 @@ Table of Contents
 | 001 demo | options [5] |
 | :---: | :--- |
 | ![gif of align transition](https://github.com/nataliemarleny/framer_transitions/blob/master/001_align.framer/001_align.gif)  | **Align** <ul><li> Align.bottom()</li><li> Align.center()</li><li> Align.left()</li><li> Align.right()</li><li> Align.top()</li></ul> **Offset** <ul><li> Align.bottom(-50)</li><li> Align.center(50)</li><li> Align.left(50)<li> Align.right(-50)</li><li> Align.top(50)</li></ul> |
+
+## 003 backgroundLayer
+
+| 003 demo | options [0] |
+| :---: | :--- |
+| ![gif of backgroundLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/003_backgroundLayer.framer/003_backgroundLayer.gif)  | Note: backgroundLayer is overridden by an artboard<br>If it has a parent, it will inherit the size of the parent |
 
 ## 013 gradient
 

@@ -1,0 +1,39 @@
+{
+  "version" : 10,
+  "root" : {
+    "id" : "1-dFr+r'",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "E)jd>Vot",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "1-dFr+r'",
+        "exportOptions" : [
+
+        ],
+        "width" : 375,
+        "y" : 0,
+        "deviceType" : "apple-iphone-7-black",
+        "type" : "apple-iphone-7-black",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "exportEnabled" : false,
+        "children" : [
+
+        ],
+        "height" : 667,
+        "fillType" : "color",
+        "targetName" : null,
+        "fillColor" : "#ffffff",
+        "name" : null
+      }
+    ]
+  }
+}

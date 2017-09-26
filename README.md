@@ -23,7 +23,7 @@ Table of Contents
 * [018 Pinchable](#018-pinchable)
 * 019 Print
 * [020 RangeSliderComponent](#020-rangeslidercomponent)
-* 021 Screen
+* [021 Screen](#021-screen)
 * 022 ScrollComponent
 * [023 SliderComponent](#023-slidercomponent)
 * 024 States
@@ -74,6 +74,11 @@ Table of Contents
 | :---: | :--- |
 | ![gif of rangeSliderComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/020_rangeSliderComponent.framer/020_rangeSliderComponent.gif) | :heavy_minus_sign:  RangeSliderComponent <ul><li> min: 0 (0 default)</li><li> max: 10 (1 default)</li><li> minValue: 2 (0 default)</li><li> maxValue: 8 (0.5 default)</li></ul> :ribbon: <ul><li>range.fill.backgroundColor = "#EF2D56"</li></ul>:white_circle:  :white_circle:<ul><li> range.knobSize = 30 (30 default)</li><li> range.minKnob.draggable.momentum = false (t default)</li><li> range.maxKnob.draggable.momentum = false (t default)</li></ul> :zap:<ul><li> range.animateToMinValue(1)</li><li> range.animateToMaxValue(9)</li></ul>
 
+## 021 screen
+
+| 021 demo | options [10] |
+| :---: | :--- |
+| ![gif of screen](https://github.com/nataliemarleny/framer_transitions/blob/master/021_screen.framer/021_screen.gif) | :barber: <ul><li>.backgroundColor</li></ul>:iphone: <ul><li>Screen.size</li><li>Screen.frame (read only)</li></ul> :iphone: - not shown: <ul><li>Screen.width</li><li>Screen.height</li></ul> :large_blue_diamond: <ul><li>Screen.perspective = 1000 (1200 by default)</li><li>Screen.perspectiveOriginX = 1 (default 0.5)</li><li>Screen.perspectiveOriginY = 1 (0.5 default)</li></ul> **Not Shown/Not Sure**<ul><li>Screen.convertPointToCanvas(point)</li><li>Screen.convertPointToLayer(point, layer)</li></ul>
 
 ## 023 sliderComponent
 

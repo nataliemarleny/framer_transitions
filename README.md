@@ -6,7 +6,7 @@ Table of Contents
 * [001 Align](#001-align-and-offset)
 * 002 Animation
 * [003 Background Layer](#003-backgroundlayer)
-* 004 Canvas
+* [004 Canvas](#004-canvas)
 * [005 Color](#005-color)
 * 006 Compatibility: basically "Mac OS"
 * 007 Defaults
@@ -42,6 +42,13 @@ Table of Contents
 | 003 demo | options [0] |
 | :---: | :--- |
 | ![gif of backgroundLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/003_backgroundLayer.framer/003_backgroundLayer.gif)  | Note: backgroundLayer is overridden by an artboard<br>If it has a parent, it will inherit the size of the parent |
+
+## 004 canvas
+
+| 004 demo | options [10] |
+| :---: | :--- |
+| ![gif of canvas](https://github.com/nataliemarleny/framer_transitions/blob/master/004_canvas.framer/004_canvas.gif)  | **Note: Canvas only works when viewing :iphone:**<br><br> :mount_fuji:<ul><li>Canvas.backgroundColor = "#DD1155"</li><li>Canvas.image = Utils.randomImage()</li></ul> :straight_ruler: - Printed<ul><li>Canvas.width</li><li>Canvas.height</li><li>Canvas.size</li><li>Canvas.frame</li></ul> **Not Shown** <ul><li>Canvas.convertPointToScreen(point)</li><li>Canvas.convertPointToLayer(point, layer)</li></ul>|
+
 
 ## 005 color
 

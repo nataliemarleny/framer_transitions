@@ -1,6 +1,6 @@
 
-Canvas.backgroundColor = "#DD1155"
-# Canvas.image = Utils.randomImage()
+# Canvas.backgroundColor = "#DD1155"
+Canvas.image = Utils.randomImage()
 
 print Canvas.width
 print Canvas.height

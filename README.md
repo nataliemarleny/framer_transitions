@@ -28,7 +28,7 @@ Table of Contents
 * [023 SliderComponent](#023-slidercomponent)
 * 024 States
 * [025 TextLayer](#025-textlayer)
-* 026 Utilities
+* [026 Utilities](#026-utilities)
 * [027 VideoLayer](#027-videolayer)
 
 ## 001 align and offset
@@ -86,6 +86,12 @@ Table of Contents
 | 025 demo | options [24] |
 | :---: | :--- |
 | ![gif of textLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/025_textLayer.framer/025_textLayer.gif) | :abcd: TextLayer<ul><li> text: Hello {name}</li><li> fontSize: 60</li><li> fontFamily: "Helvetica"</li><li> fontWeight: 700</li><li> fontStyle: "bold" (italic / bold / oblique)</li><li> padding:</li> - top: -10 (default 0)<br>- left: 0<br>- bottom: 0<br>- right: 0<li> lineHeight: 1.2 (0 default)</li><li> letterSpacing: 1.2 (0 default)</li><li> wordSpacing: 0 (default 0)</li><li> textAlign: "left" (left, right, center)</li><li> textTransform: "capitalize" (uppercase, lowercase, capitalize)</li><li> textDecoration: "none"</li><li> textIndent: 1</li><li> shadowX: 2</li><li> shadowY: 2</li><li> shadowBlur: 4;</li><li> shadowColor: "rgba (0,0,0,0.2)"</li></ul> :octocat: <ul><li>.template =</li> - name: "github"</ul> :1234: <ul><li>.templateFormatter = </li> count: (value) -><br> - Utils.round(value, 0) <li>.animate</li> -template:<br>count: 1000</ul> :twisted_rightwards_arrows: <ul><li>.textReplace("replace", "Lorem ipsum dolor sit")</li> ("from", "to") <li> truncate: true</li><li> height: 50</li></ul> **Not Shown: To Troubleshoot** <ul><li> textOverflow: "ellipsis"</li> - truncate boolean worked however<li> font: "bold, 700, 60px/1, Helvetica"</li> - (fontStyle fontWeight fontSize*/lineHeight fontFamily*) <br> * = mandatory</ul> |
+
+## 026 utilities
+
+| 026 demo | options [23] |
+| :---: | :--- |
+| ![gif of utilities](https://github.com/nataliemarleny/framer_transitions/blob/master/026_utilities.framer/026_utilities.gif) | :arrow_double_up: <ul><li>Utils.modulate()</li> used here for parallax scroll</ul> :black_nib: <ul><li>Utils.loadWebFont("Bungee Shade")</li><li>Utils.loadWebFont("Roboto", 700)</li></ul> :rainbow:<ul><li>.backgroundColor = Utils.randomColor(1)</li></ul> :flashlight:<ul><li>Utils.labelLayer(layer, "Hello")</li></ul> :camera:<ul><li>.image = Utils.randomImage()</li><li>Utils.randomImage(Layer)</li>(clips to layer)</ul> :1234:<ul><li>text2.text = Utils.round(Utils.randomNumber(0, 100), 2)</li></ul>:mag_right: **Printed Items** <ul><li>Utils.cycle(["a", "b", "c"])</li><li>Utils.randomChoice([":banana:",":apple:",":watermelon:"])</li><li>Utils.delay 0.5, -></li>print "delayed reaction"<li>print Utils.frameInset({x:0, y:0, width:100, height:100}, 10) </li><li>Utils.interval 1, -></li>print "one second"<li>handler = Utils.throttle 0.5, -></li>print "hello"<br>for i in [10...100]<br>handler()<li>handler = Utils.debounce 0.1, -></li>print "hello"<br>for i in [1..100]<br>handler()</ul> :black_square_button: (only works for border?)<ul><li>layer.classList.add("testClass")<li>css = {...;}</ul>**Not Shown - these return a boolean** <ul><li> Utils.isWebKit()</li><li> Utils.isChrome()</li><li> Utils.isSafari()</li><li> Utils.isTouch()</li><li> Utils.isDesktop()</li><li> Utils.isPhone()</li><li> Utils.isTablet()</li><li> Utils.isMobile()</li></ul> |
 
 ## 027 videoLayer
 

@@ -38,7 +38,7 @@ layerC = new Layer
     backgroundColor: "rgba(0,150,255,1)"
  
 # Set vertical perspective origin 
-Screen.perspectiveOriginY = 1
+Screen.perspectiveOriginY = 1 # default 0.5
 
 
 layer = new Layer

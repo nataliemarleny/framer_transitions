@@ -19,7 +19,7 @@ Table of Contents
 * 014 Layer
 * 015 MIDIComponent
 * 016 Modules
-* 017 PageComonent
+* 017 PageComponent
 * [018 Pinchable](#018-pinchable)
 * 019 Print
 * [020 RangeSliderComponent](#020-rangeslidercomponent)

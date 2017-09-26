@@ -17,7 +17,7 @@ Table of Contents
 * 012 FlowComponent
 * [013 Gradient](#013-gradient)
 * 014 Layer
-* 015 MIDIComponent
+* 015 MIDIComponent: Need a MIDI device to test this
 * 016 Modules
 * 017 PageComponent
 * [018 Pinchable](#018-pinchable)

@@ -24,7 +24,7 @@ Table of Contents
 * 019 Print
 * [020 RangeSliderComponent](#020-rangeslidercomponent)
 * [021 Screen](#021-screen)
-* 022 ScrollComponent
+* [022 ScrollComponent](#022-scrollcomponent)
 * [023 SliderComponent](#023-slidercomponent)
 * 024 States
 * [025 TextLayer](#025-textlayer)
@@ -86,6 +86,14 @@ Table of Contents
 | 021 demo | options [10] |
 | :---: | :--- |
 | ![gif of screen](https://github.com/nataliemarleny/framer_transitions/blob/master/021_screen.framer/021_screen.gif) | :barber: <ul><li>.backgroundColor</li></ul>:iphone: <ul><li>Screen.size</li><li>Screen.frame (read only)</li></ul> :iphone: - not shown: <ul><li>Screen.width</li><li>Screen.height</li></ul> :large_blue_diamond: <ul><li>Screen.perspective = 1000 (1200 by default)</li><li>Screen.perspectiveOriginX = 1 (default 0.5)</li><li>Screen.perspectiveOriginY = 1 (de0fault 0.5)</li></ul> **Not Shown/Not Sure**<ul><li>Screen.convertPointToCanvas(point)</li><li>Screen.convertPointToLayer(point, layer)</li></ul>
+
+
+
+## 022 scrollComponent is in progress
+
+| 022 demo | options [28] |
+| :---: | :--- |
+| ![gif of scrollcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/022_scrollcomponent.framer/022_scrollcomponent.gif) | :scroll: <ul><li>.contentInset = </li>top: 150<li>.speedX: 1 (default 1)</li><li>scrollVertical: true</li><li>scrollHorizontal: false</li></ul> **Not Shown** <ul><li>.content</li><li>.speedY: 1 (default 1)</li></ul>
 
 ## 023 sliderComponent
 

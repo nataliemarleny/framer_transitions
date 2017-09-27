@@ -10,7 +10,7 @@ Table of Contents
 * [005 Color](#005-color)
 * 006 Compatibility: basically "Mac OS"
 * [007 Defaults](#007-defaults)
-* 008 Device
+* [008 Device](#008-device)
 * [009 Draggable](#009-draggable-is-in-progress)
 * 010 Events
 * 011 Extras
@@ -62,6 +62,11 @@ Table of Contents
 | :---: | :--- |
 | ![gif of defaults](https://github.com/nataliemarleny/framer_transitions/blob/master/007_defaults.framer/007_defaults.gif)  | :a: :b:<ul><li>Framer.Defaults.Layer.backgroundColor = red</li><li>Framer.Defaults.Layer.borderRadius = 12</li><li>Framer.Defaults.Animation =</li> curve: Spring(damping: 0.75)</ul><br> Replicated layer to demonstrate default change |
 
+## 008 device
+
+| 008 demo | options [12] |
+| :---: | :--- |
+| ![gif of device](https://github.com/nataliemarleny/framer_transitions/blob/master/008_device.framer/008_device.gif)  | :iphone: <ul><li>Framer.Device.customise()</li><li>Framer.Device.Type.Phone</li></ul> :leftwards_arrow_with_hook:<ul><li>Framer.Device.orientationName = "landscape"</li></ul> **Not Shown But Similar** <ul><li>.orientation</li><li>.setOrientation()</li><li>.rotateLeft()</li><li>.rotateRight()</li></ul> **Not Shown** <ul><li>.fullScreen</li><li>.deviceScale</li><li>.setDeviceScale</li><li>.contentScale</li><li>.setContentScale()</li></ul>|
 
 ## 009 draggable is in progress
 
@@ -126,5 +131,6 @@ Table of Contents
 | ![gif of videoLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/027_videolayer.framer/027_videolayer.gif) | :movie_camera: <ul><li> new VideoLayer: </li> video: "name.mp4"<li> .player.autoplay = true</li><li> .player.fastSeek(2)</li></ul>
 
 
-
+## Credits:
+RayPS - iPhone X Framer device mockup from: https://gist.github.com/RayPS/0a21af6cf3b0578ffab62c604b5ea6e2
 

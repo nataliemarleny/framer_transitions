@@ -1,0 +1,22 @@
+{
+  "orientation" : 90,
+  "updateDelay" : 0.3,
+  "designModeSelected" : 0,
+  "cachedDeviceHeight" : 375,
+  "contentScale" : 1,
+  "cachedDeviceWidth" : 812,
+  "fullScreen" : false,
+  "deviceType" : "custom",
+  "sharedPrototype" : 0,
+  "propertyPanelToggleStates" : {
+
+  },
+  "projectId" : "6E817361-7E1F-429C-A8F8-3F8210AA90F5",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "showBezel" : true,
+  "foldedCodeRanges" : [
+
+  ],
+  "deviceScale" : "fit"
+}

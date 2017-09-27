@@ -9,7 +9,7 @@ Table of Contents
 * [004 Canvas](#004-canvas)
 * [005 Color](#005-color)
 * 006 Compatibility: basically "Mac OS"
-* 007 Defaults
+* [007 Defaults](#007-defaults)
 * 008 Device
 * [009 Draggable](#009-draggable-is-in-progress)
 * 010 Events
@@ -55,6 +55,12 @@ Table of Contents
 | 005 demo | options [16] |
 | :---: | :--- |
 | ![gif of color](https://github.com/nataliemarleny/framer_transitions/blob/master/005_color.framer/005_color.gif)  | Colors in Framer are similar to SASS! <br><br>:art: <ul><li>bg.animate</li>- backgroundColor: Color.random()</ul>**Not Shown**<ul><li> lighten()</li><li> darken()</li><li> saturate()</li><li> desaturate()</li><li> grayscale()</li><li> gray()</li><li> alpha()</li><li> mix()</li></ul> :printer:<ul><li> isColor()</li><li> isColorObject()</li><li> toHexString()</li><li> toRgbString()</li></ul> |
+
+## 007 defaults
+
+| 007 demo | options [0] |
+| :---: | :--- |
+| ![gif of defaults](https://github.com/nataliemarleny/framer_transitions/blob/master/007_defaults.framer/007_defaults.gif)  | :a: :b:<ul><li>Framer.Defaults.Layer.backgroundColor = red</li><li>Framer.Defaults.Layer.borderRadius = 12</li><li>Framer.Defaults.Animation =</li> curve: Spring(damping: 0.75)</ul><br> Replicated layer to demonstrate default change |
 
 
 ## 009 draggable is in progress

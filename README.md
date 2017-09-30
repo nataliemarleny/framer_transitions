@@ -4,7 +4,7 @@ Reference for Framer Transitions - Illustrated Framer Docs
 
 Table of Contents
 * [001 Align](#001-align-and-offset)
-* [002 Animation](#002-animation)
+* [002 Animation](#002-animation-is-in-progress)
 * [003 Background Layer](#003-backgroundlayer)
 * [004 Canvas](#004-canvas)
 * [005 Color](#005-color)
@@ -37,11 +37,11 @@ Table of Contents
 | :---: | :--- |
 | ![gif of align transition](https://github.com/nataliemarleny/framer_transitions/blob/master/001_align.framer/001_align.gif)  | **Align** <ul><li> Align.bottom()</li><li> Align.center()</li><li> Align.left()</li><li> Align.right()</li><li> Align.top()</li></ul> **Offset** <ul><li> Align.bottom(-50)</li><li> Align.center(50)</li><li> Align.left(50)<li> Align.right(-50)</li><li> Align.top(50)</li></ul> |
 
-## 002 animation
+## 002 animation is in progress
 
 | 001 demo | options [8] |
 | :---: | :--- |
-| ![gif of animate](https://github.com/nataliemarleny/framer_transitions/blob/master/002_animation.framer/002_animate.gif)  | **Align** <ul><li> Align.bottom()</li><li> Align.center()</li><li> Align.left()</li><li> Align.right()</li><li> Align.top()</li></ul> **Offset** <ul><li> Align.bottom(-50)</li><li> Align.center(50)</li><li> Align.left(50)<li> Align.right(-50)</li><li> Align.top(50)</li></ul> |
+| ![gif of animate](https://github.com/nataliemarleny/framer_transitions/blob/master/002_animation.framer/002_animate.gif)  | <ul><li>animation.start()</li><li>animation.stop()</li><li>animation.reverse()</li><li>animation.reset()</li><li>animation.restart()</li><li>animation.finish()</li></ul> **Not Shown** <ul><li>curve</li><li></li></ul>|
 
 ## 003 backgroundLayer
 
@@ -54,7 +54,6 @@ Table of Contents
 | 004 demo | options [10] |
 | :---: | :--- |
 | ![gif of canvas](https://github.com/nataliemarleny/framer_transitions/blob/master/004_canvas.framer/004_canvas.gif)  | **Note: Canvas only works when viewing :iphone:**<br><br> :mount_fuji:<ul><li>Canvas.backgroundColor = "#DD1155"</li><li>Canvas.image = Utils.randomImage()</li></ul> :straight_ruler: - Printed<ul><li>Canvas.width</li><li>Canvas.height</li><li>Canvas.size</li><li>Canvas.frame</li></ul> **Not Shown** <ul><li>Canvas.convertPointToScreen(point)</li><li>Canvas.convertPointToLayer(point, layer)</li></ul>|
-
 
 ## 005 color
 

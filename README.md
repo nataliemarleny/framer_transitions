@@ -41,7 +41,7 @@ Table of Contents
 
 | 001 demo | options [8] |
 | :---: | :--- |
-| ![gif of animate](https://github.com/nataliemarleny/framer_transitions/blob/master/002_animation.framer/002_animate.gif)  | <ul><li>animation.start()</li><li>animation.stop()</li><li>animation.reverse()</li><li>animation.reset()</li><li>animation.restart()</li><li>animation.finish()</li></ul> **Not Shown** <ul><li>curve</li><li></li></ul>|
+| ![gif of animate](https://github.com/nataliemarleny/framer_transitions/blob/master/002_animation.framer/002_animate.gif)  | <ul><li>animation.start()</li><li>animation.stop()</li><li>animation.reverse()</li><li>animation.reset()</li><li>animation.restart()</li><li>animation.finish()</li></ul> **Not Shown** <ul><li>curve</li><li>properties</li></ul>|
 
 ## 003 backgroundLayer
 

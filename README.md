@@ -59,7 +59,7 @@ Table of Contents
 
 | 005 demo | options [16] |
 | :---: | :--- |
-| ![gif of color](https://github.com/nataliemarleny/framer_transitions/blob/master/005_color.framer/005_color.gif)  | Colors in Framer are similar to SASS! <br><br>:art: <ul><li>bg.animate</li>- backgroundColor: Color.random()</ul>**Not Shown**<ul><li> lighten()</li><li> darken()</li><li> saturate()</li><li> desaturate()</li><li> grayscale()</li><li> gray()</li><li> alpha()</li><li> mix()</li></ul> :printer:<ul><li> isColor()</li><li> isColorObject()</li><li> toHexString()</li><li> toRgbString()</li></ul> |
+| ![gif of color](https://github.com/nataliemarleny/framer_transitions/blob/master/005_color.framer/005_color_.gif)  | :art: :iphone: <ul><li>violet = new Color("rgba(95, 61, 196, 1)")</li><li>violet2 = new Color(violet).saturate(80) (default 10)</li><li>violet3 = new Color(violet).desaturate(80) (default 10)</li><li>violet4 = new Color(violet).darken(20)</li><li>violet5 = new Color(violet).lighten(100) (default 10)</li></ul> :ballot_box_with_check: <ul><li> violet6 = violet.grayscale()</li><li> violet7 = Color.gray(0.5)</li></ul> :crystal_ball: <li> violet8 = violet.alpha(0.4)</li><li> violet9 = Color.mix(violet, violet4, 0.2)</li><li>violet10 = Color.random()</li></ul> **Not Shown** :printer:<ul><li> Color.isColor() (returns boolean)</li><li> Color.isColorObject() (returns boolean)(value a color string)</li><li> Color.toHexString() (returns hex representation of color)</li><li> Color.toRgbString() (returns rgb representation of color)</li><li>Color.toHSlString() (returns HSL representation of color)</li></ul> |
 
 ## 007 defaults
 

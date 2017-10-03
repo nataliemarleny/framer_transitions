@@ -1,17 +1,20 @@
+bg = new BackgroundLayer
+	backgroundColor: "#99e9f2"
+
 layerA = new Layer
-	backgroundColor: "#7D6B91"
+	backgroundColor: "#3bc9db"
 	borderRadius: 20
 	width: 50
 	x: Align.left(50)
 
 layerB = new Layer
-	backgroundColor: "#5D536B"
+	backgroundColor: "#15aabf"
 	borderRadius: 20
 	width: 50
 	x: Align.center
 
 layerC = new Layer
-	backgroundColor: "#272838"
+	backgroundColor: "#0c8599"
 	borderRadius: 20
 	width: 50
 	x: Align.right(-50)
@@ -75,24 +78,62 @@ layerB.draggable.on Events.DragMove, ->
 layerA.draggable.on Events.DragMove, ->
 	print layerA.draggable.direction
 
-# angle
-# updatePosition()
-# directionLock
-# directionLockThreshold
-# pixelAlign
-# isDragging
-# isMoving
-# offset
-# layerStartPoint
-# cursorStartPoint
-# layerCursorOffset
+########## layerC ########
+
+layerC.on Events.DragMove, ->
+	print layerC.draggable.angle
+
+# setup for draggable
+round = (number, nearest) ->
+    Math.round(number / nearest) * nearest
+ 
+# Drag in increments of 20px 
+layerC.draggable.updatePosition = (point) ->
+    point.x = round(point.x, 20)
+    point.y = round(point.y, 20)
+    return point
+
+layerC.draggable.directionLock = true
+layerC.draggable.directionLockThreshold =
+    x: 10
+    y: 20
+    
+layerC.draggable.pixelAlign = true
+
+# Check if the layer is being dragged 
+# Returns false when animating
+layerC.on Events.DragMove, ->
+    print layerA.draggable.isDragging
+
+#isAnimating
+
+# Check if the layer is animating
+# via bounce or momentum 
+# Can't get this to work
+layerB.on Events.DragMove, ->
+	print layerB.draggable.isAnimating
+
+# Get the x and y position of the layer 
+layerC.on Events.DragMove, ->
+    print layerC.draggable.offset
+
+# On DragStart, get the current x and y position  
+layerC.on Events.DragStart, ->
+    print layerC.draggable.layerStartPoint
+
+# On DragStart, get x and y position of the cursor 
+layerC.on Events.DragStart, ->
+    print layerC.draggable.cursorStartPoint
+
+# Get the cursor position within the layer 
+layerC.on Events.DragStart, ->
+    print layerC.draggable.layerCursorOffset
+
 # propagateEvents
 
-
-
-
-
-
+# Setting propagateEvents to false allows you to drag layerA 
+# without also scrolling within the ScrollComponent 
+layerA.draggable.propagateEvents = false
 
 
 

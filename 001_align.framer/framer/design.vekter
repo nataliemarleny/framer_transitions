@@ -1,5 +1,5 @@
 {
-  "version" : 2,
+  "version" : 10,
   "root" : {
     "id" : "kP')S8)*",
     "__class" : "CanvasNode",
@@ -10,6 +10,9 @@
         "__class" : "FrameNode",
         "x" : 0,
         "parentid" : "kP')S8)*",
+        "exportOptions" : [
+
+        ],
         "width" : 320,
         "y" : 0,
         "deviceType" : "apple-iphone-5s-space-gray",
@@ -21,6 +24,7 @@
           "__class" : "LinearGradient",
           "start" : "black"
         },
+        "exportEnabled" : false,
         "children" : [
 
         ],

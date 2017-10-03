@@ -11,16 +11,16 @@ if not Framer.Device._hideBezel
 	Framer.Device.screen.z = -1
 
 # -------------------------------------------
-new BackgroundLayer backgroundColor: "white"
+bg = new BackgroundLayer 
+	backgroundColor: "#66d9e8"
 
-photo = new Layer
-	image: Utils.randomImage()
-	size: Screen.height
-#	size: Screen.width
-	scale: 1
-photo.center()
-photo.states.stateA = scale: 1
-photo.onDoubleTap -> @states.next()
+animationA = new Animation bg,
+	backgroundColor: "#1098ad"
+
+animationA.start()
+
+# Framer.Device.rotateLeft()
+# Framer.Device.rotateRight()
 
 # Framer.Device.fullScreen
 # Framer.Device.deviceScale

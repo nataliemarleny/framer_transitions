@@ -12,15 +12,15 @@ if not Framer.Device._hideBezel
 
 # -------------------------------------------
 bg = new BackgroundLayer 
-	backgroundColor: "#66d9e8"
+	backgroundColor: "#72c3fc"
 
 animationA = new Animation bg,
-	backgroundColor: "#1098ad"
+	backgroundColor: "#1b6ec2"
 
 animationA.start()
 
-# Framer.Device.rotateLeft()
-# Framer.Device.rotateRight()
+Framer.Device.rotateLeft()
+Framer.Device.rotateRight()
 
 # Framer.Device.fullScreen
 # Framer.Device.deviceScale

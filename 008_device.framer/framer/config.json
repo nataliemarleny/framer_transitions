@@ -1,10 +1,10 @@
 {
-  "orientation" : 90,
+  "orientation" : 0,
   "updateDelay" : 0.3,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 375,
+  "cachedDeviceHeight" : 812,
   "contentScale" : 1,
-  "cachedDeviceWidth" : 812,
+  "cachedDeviceWidth" : 375,
   "fullScreen" : false,
   "deviceType" : "custom",
   "sharedPrototype" : 0,

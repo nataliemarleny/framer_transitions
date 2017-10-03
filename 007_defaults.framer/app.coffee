@@ -8,7 +8,7 @@ Framer.Defaults.Animation =
 	curve: Spring(damping: 0.75)
 
 bg = new BackgroundLayer
-	backgroundColor: "#a3daff"
+	backgroundColor: "#dbe4ff"
 	borderRadius: 0
 	size: Screen.size
 
@@ -16,13 +16,13 @@ layerA = new Layer
 	x: Align.left(50)
 	y: Align.top(50)
 	rotation: 45
-	backgroundColor: "#1b6ec2"
+	backgroundColor: "#91a7ff"
 
 layerB = new Layer
 	y: Align.bottom(-50)
 	x: Align.right(-50)
 	rotation: 45
-	backgroundColor: "#4dadf7"
+	backgroundColor: "#4263eb"
 
 animationA = new Animation layerA,
 	x: Align.center(-100)

@@ -71,7 +71,7 @@ Table of Contents
 
 | 008 demo | options [12] |
 | :---: | :--- |
-| ![gif of device](https://github.com/nataliemarleny/framer_transitions/blob/master/008_device.framer/008_device_.gif)  | :iphone: <ul><li>Framer.Device.customise()</li><li>Framer.Device.Type.Phone</li></ul> :leftwards_arrow_with_hook:<ul><li>Framer.Device.orientationName = "landscape"</li></ul> **Not Shown But Similar** <ul><li>.orientation</li><li>.setOrientation()</li><li>.rotateLeft()</li><li>.rotateRight()</li></ul> **Not Shown** <ul><li>.fullScreen</li><li>.deviceScale</li><li>.setDeviceScale</li><li>.contentScale</li><li>.setContentScale()</li></ul>|
+| ![gif of device](https://github.com/nataliemarleny/framer_transitions/blob/master/008_device.framer/008-device.gif)  | :iphone: <ul><li>Framer.Device.customise()</li><li>Framer.Device.Type.Phone</li></ul> :leftwards_arrow_with_hook:<ul><li>Framer.Device.orientationName = "landscape"</li></ul> **Not Shown But Similar** <ul><li>.orientation</li><li>.setOrientation()</li><li>.rotateLeft()</li><li>.rotateRight()</li></ul> **Not Shown** <ul><li>.fullScreen</li><li>.deviceScale</li><li>.setDeviceScale</li><li>.contentScale</li><li>.setContentScale()</li></ul>|
 
 ## 009 draggable is in progress
 

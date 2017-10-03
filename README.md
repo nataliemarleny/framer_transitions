@@ -65,7 +65,7 @@ Table of Contents
 
 | 007 demo | options [0] |
 | :---: | :--- |
-| ![gif of defaults](https://github.com/nataliemarleny/framer_transitions/blob/master/007_defaults.framer/007_defaults.gif)  | :a: :b:<ul><li>Framer.Defaults.Layer.backgroundColor = red</li><li>Framer.Defaults.Layer.borderRadius = 12</li><li>Framer.Defaults.Animation =</li> curve: Spring(damping: 0.75)</ul><br> Replicated layer to demonstrate default change |
+| ![gif of defaults](https://github.com/nataliemarleny/framer_transitions/blob/master/007_defaults.framer/007_defaults.gif)  | :large_blue_diamond: :large_blue_diamond:<ul><li>Framer.Defaults.Layer.borderRadius = 12</li><li>Framer.Defaults.Layer.size = 100</li><li>Framer.Defaults.Animation =<br> curve: Spring(damping: 0.75)</li></ul> Replicated layer to demonstrate default change<br><br> :warning:<ul><li>Order default overrides first</li><li>Layers include bg layer</li></ul> |
 
 ## 008 device
 

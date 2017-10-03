@@ -1,11 +1,11 @@
-
-# Canvas.backgroundColor = "#DD1155"
-Canvas.image = Utils.randomImage()
+Canvas.backgroundColor = "#862e9c"
+#  Canvas.image = "bg-canvas.png"
 
 print Canvas.width
 print Canvas.height
 print Canvas.size
 print Canvas.frame
+
 
 # Not shown , not sure how it works
 

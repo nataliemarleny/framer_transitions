@@ -10,8 +10,8 @@ layerA = new Layer
 
 layerA.states =
 	stateA:
-		x: Align.right 
-		y: Align.bottom 
+		x: Align.right(-20) 
+		y: Align.bottom(-20) 
 		backgroundColor: "#495057"
 	stateB:
 		x: Align.left (50) # using offsets

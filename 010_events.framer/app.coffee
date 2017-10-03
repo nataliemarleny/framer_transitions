@@ -10,7 +10,7 @@ layerA = new Layer
 	y: Align.top(25)
 	size: 50
 	borderRadius: 5
-	backgroundColor: "#2b8a3e"
+	backgroundColor: "#087f5b"
 
 layerA.onTap ->
 	layerA.animate
@@ -18,48 +18,29 @@ layerA.onTap ->
 
 layerA.onDoubleTap ->
 	layerA.animate
-		scale: 1.5
+	
 
-# Force Tap Events
-# .onForceTap 
-# .onForceTapChange
-# .onForceTapStart
-# .onForceTapEnd 
 
-layerB = new Layer
-	x: Align.left(10)
-	y: Align.top(80)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#2f9e44"
-
-layerB.onForceTap ->
-	layerB.animate
-		backgroundColor: "#8ce99a"
-
-layerB.onForceTapEnd ->
-	layerB.animate
-		backgroundColor: "#2f9e44"
 
 # LongPress Events
 # .onLongPress
 # .onLongPressStart
 # .onLongPressEnd
 
-layerC = new Layer
+layerB = new Layer
 	x: Align.left(10)
-	y: Align.top(135)
+	y: Align.top(80)
 	size: 50
 	borderRadius: 5
-	backgroundColor: "#37b24d"
+	backgroundColor: "#099268"
 
-layerC.onLongPress ->
-	layerC.animate
-		backgroundColor: "#d3f9d8"
+layerB.onLongPress ->
+	layerB.animate
+		backgroundColor: "#96f2d7"
 
-layerC.onLongPressEnd ->
-	layerC.animate
-		backgroundColor: "#37b24d"
+layerB.onLongPressEnd ->
+	layerB.animate
+		backgroundColor: "#099268"
 
 # Swipe Events
 # .onSwipe
@@ -78,53 +59,132 @@ layerC.onLongPressEnd ->
 # .onSwipeRightStart
 # .onSwipeRightEnd
 
-layerD = new Layer
+layerC = new Layer
 	x: Align.left(10)
-	y: Align.center(-117)
+	y: Align.top(135)
 	size: 50
 	borderRadius: 5
-	backgroundColor: "#40c057"
+	backgroundColor: "#0ca678"
 
-layerD.onSwipeRight ->
-	layerD.animate
+layerC.onSwipeRight ->
+	layerC.animate
 		x: Align.right(250)
 
-layerD.onSwipeRightEnd ->
-	layerD.animate
+layerC.onSwipeRightEnd ->
+	layerC.animate
 		x: Align.left(10)
 
-layerD.onSwipeLeft ->
-	layerD.animate
+layerC.onSwipeLeft ->
+	layerC.animate
 		x: Align.left(-100)
 
-layerD.onSwipeLeftEnd ->
-	layerD.animate
+layerC.onSwipeLeftEnd ->
+	layerC.animate
 		x: Align.left(10)
 
-layerD.onSwipeUp ->
-	layerD.animate
-		y: Align.top(50) 
+layerC.onSwipeUp ->
+	layerC.animate
+		y: Align.top(0) 
 		options:
 			time: 1
 			curve: Bezier.linear
 
-layerD.onSwipeUpEnd ->
-	layerD.animate
+layerC.onSwipeUpEnd ->
+	layerC.animate
 		x: Align.left(10)
-		y: Align.top(50)
+		y: Align.top(135)
 
-layerD.onSwipeDown ->
-	layerD.animate
+layerC.onSwipeDown ->
+	layerC.animate
 		y: Align.bottom(200)
 		options:
 			time: 1
 			curve: Bezier.linear
 
-layerD.onSwipeDownEnd ->
-	layerD.animate
+layerC.onSwipeDownEnd ->
+	layerC.animate
 		x: Align.left(10)
-		y: Align.center(-117)
+		y: Align.top(135)
 		size: 50
+
+# Pinch
+# .onPinch
+# .onPinchStart
+# .onPinchEnd
+
+layerD = new Layer
+	x: Align.left(10)
+	y: Align.center(-117)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#12b886"
+
+
+
+
+layerE = new Layer
+	x: Align.left(10)
+	y: Align.center(-60)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#20c997"
+
+layerF = new Layer
+	x: Align.left(10)
+	y: Align.center(-3)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#38d9a9"
+
+layerG = new Layer
+	x: Align.left(10)
+	y: Align.center(54)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#63e6be"
+
+layerH = new Layer
+	x: Align.left(10)
+	y: Align.bottom(-198)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#96f2d7"
+
+layerI = new Layer
+	x: Align.left(10)
+	y: Align.bottom(-140)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#c3fae8"
+
+layerJ = new Layer
+	x: Align.left(10)
+	y: Align.bottom(-84)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#e6fcf5"
+
+
+# Force Tap Events
+# .onForceTap 
+# .onForceTapChange
+# .onForceTapStart
+# .onForceTapEnd 
+
+layerJ = new Layer
+	x: Align.left(10)
+	y: Align.bottom(-84)
+	size: 50
+	borderRadius: 5
+	backgroundColor: "#e6fcf5"
+
+layerJ.onForceTap ->
+	layerJ.animate
+		backgroundColor: "#96f2d7"
+
+layerJ.onForceTapEnd ->
+	layerJ.animate
+		backgroundColor: "#099268"
 
 # Pan
 # .onPan
@@ -136,44 +196,5 @@ layerD.onSwipeDownEnd ->
 # .onPanUp
 # .onPanDown
 
-layerE = new Layer
-	x: Align.left(10)
-	y: Align.center(-60)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#51cf66"
 
-layerF = new Layer
-	x: Align.left(10)
-	y: Align.center(-3)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#69db7c"
 
-layerG = new Layer
-	x: Align.left(10)
-	y: Align.center(54)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#8ce99a"
-
-layerH = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-198)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#b2f2bb"
-
-layerI = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-140)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#d3f9d8"
-
-layerJ = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-84)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#ebfbee"

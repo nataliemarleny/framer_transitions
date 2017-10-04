@@ -143,7 +143,7 @@ Table of Contents
 
 | 022 demo | options [28] |
 | :---: | :--- |
-| ![gif of scrollcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/022_scrollcomponent.framer/022_scrollcomponent.gif) | :scroll: <ul><li>.contentInset = </li>top: 150<li>.speedX: 1 (default 1)</li><li>scrollVertical: true</li><li>scrollHorizontal: false</li></ul> **Not Shown** <ul><li>.content</li><li>.speedY: 1 (default 1)</li></ul>
+| ![gif of scrollcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/022_scrollcomponent.framer/022-scroll.gif) | :scroll: <ul><li>.contentInset = </li>top: 150<li>.speedX: 1 (default 1)</li><li>scrollVertical: true</li><li>scrollHorizontal: false</li></ul> **Not Shown** <ul><li>.content</li><li>.speedY: 1 (default 1)</li></ul>
 
 ## 023 sliderComponent
 

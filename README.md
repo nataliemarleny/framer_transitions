@@ -16,10 +16,10 @@ Table of Contents
 * 011 Extras
 * 012 FlowComponent
 * [013 Gradient](#013-gradient)
-* 014 Layer
+* [014 Layer](#014-layer-is-in-progress)
 * 015 MIDIComponent: Need a MIDI device to test this
 * 016 Modules
-* 017 PageComponent
+* [017 PageComponent](#017-pagecomponent-is-in-progress)
 * [018 Pinchable](#018-pinchable)
 * [019 Print](#019-print)
 * [020 RangeSliderComponent](#020-rangeslidercomponent)
@@ -90,6 +90,18 @@ Table of Contents
 | 013 demo | options [3] |
 | :---: | :--- |
 | ![gif of gradient transition](https://github.com/nataliemarleny/framer_transitions/blob/master/013_gradient.framer/013-gradient.gif) | :banana: <ul><li> start: "#fff9db"</li><li> end: "#ffd43b"</li></ul> :sunrise:<ul><li> angle: 45</li><li>start: "#e67700"</li><li>end: "#ffe066"</li><li> Animatable: YES (animated angle: (180+45)</li></ul> |
+
+## 014 layer is in progress
+
+| 014 demo | options [95] |
+| :---: | :--- |
+| ![gif of layer](https://github.com/nataliemarleny/framer_transitions/blob/master/013_gradient.framer/013-gradient.gif) |<ul><li>[x] id </li><li>[x] name</li><li>[x] x / y / z </li><li>[x] width</li><li>[x] height</li><li>[x] minX</li><li>[x] midX</li><li>[ ] maxX</li><li>[x] minY</li><li>[x] midY</li><li>[ ] maxY</li><li>[ ] point</li><li>[x] size</li><li>[ ] frame</li><li>[ ] props</li><li>[ ] center()</li><li>[ ] centerX()</li><li>[ ] centerY()</li><li>[ ] pixelAlign()</li><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li><li>[x] backgroundColor</li><li>[ ] color</li><li>[x] gradient</li><li>[x] image</li><li>[ ] visible</li><li>[ ] opacity</li><li>[ ] clip</li><li>[ ] ignoreEvents</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotation</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] rotationZ</li><li>[ ] scale</li><li>[ ] scaleX</li><li>[ ] scaleY</li><li>[ ] parent</li><li>[ ] children</li><li>[ ] childrenWithName()</li><li>[ ] siblings</li><li>[ ] siblingsWithName()</li><li>[ ] descendants</li><li>[ ] ancestors()</li><li>[ ] addChild()</li><li>[ ] removeChild()</li><li>[ ] index</li><li>[ ] placeBefore()</li><li>[ ] placeBehind()</li><li>[ ] bringToFront()</li><li>[ ] sendToBack()</li><li>[ ] html</li><li>[ ] style</li><li>[ ] computedStyle()</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li><li>[ ] blur</li><li>[ ] backgroundBlur</li><li>[ ] blending</li><li>[ ] brightness</li><li>[ ] saturate</li><li>[ ] hueRotate</li><li>[ ] contrast</li><li>[ ] invert</li><li>[ ] grayscale</li><li>[ ] sepa</li><li>[ ] shadows</li><li>[ ] shadowX</li><li>[ ] shadowY</li><li>[ ] shadowBlur</li><li>[ ] shadowSpread</li><li>[ ] shadowColor</li><li>[ ] shadowType</li><li>[x] borderRadius</li><li>[x] borderColor</li><li>[x] borderWidth</li><li>[ ] animate</li><li>[ ] animationOptions</li><li>[ ] animations()</li><li>[ ] isAnimating</li><li>[ ] animateStop()</li><li>[ ] stateSwitch()</li><li>[ ] stateCycle()</li><li>[ ] stateNames</li><li>[ ] convertPointToCanvas()</li><li>[ ] convertPointToScreen()</li><li>[ ] convertPointToLayer()</li><li>[ ] on()</li><li>[ ] off()</li></ul>|
+
+## 017 pageComponent is in progress
+
+| 017 demo | options [14] |
+| :---: | :--- |
+| ![gif of pageComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/018_pinchable.framer/018-pinchable.gif)  | :evergreen_tree::green_heart: <ul><li>.originX</li><li>.originY</li><li>.velocityThreshold</li><li>.animationOptions</li><li>.currentPage</li><li>.closestPage</li><li>.nextPage()</li><li>.previousPage</li><li>.snapToPage()</li><li>.snapToNextPage()</li><li>.snapToPreviousPage()</li><li>.addPage()</li><li>.horizontalPageIndex()</li><li>.verticalPageIndex()</li></ul>|
 
 ## 018 pinchable
 

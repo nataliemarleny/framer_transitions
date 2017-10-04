@@ -1,25 +1,42 @@
 
-blue = new Gradient
-	start: "#05F"
-	end: "#0DF"
+sunshine = new Gradient
+	start: "#fff9db"
+	end: "#ffd43b"
 
-gray = new Gradient
+sunset = new Gradient
 	angle: 45
+	start: "#e67700"
+	end: "#ffe066"
 
-blk = new Gradient
+wave = new Gradient
 	angle: (180+45)
+	start: "#e67700"
+	end: "#ffe066"
 
 layerA = new Layer
 	x: Align.center
-	y: Align.top(50)
-	borderRadius: 100
-	gradient: blue
+	y: Align.top
+	width: Screen.width
+	height: 350
+	gradient: sunshine
 
 layerB = new Layer
 	x: Align.center
-	y: Align.bottom (-50)
-	borderRadius: 100
-	gradient: gray
+	y: Align.bottom
+	height: 350
+	width: Screen.width
+	gradient: sunset
 
-layerB.animate
-	gradient: blk
+animation1 = new Animation layerB,
+	gradient: wave
+
+animation2 = new Animation layerB,
+	gradient: sunset
+
+animation1.start()
+
+animation1.on Events.AnimationEnd, animation2.start
+animation2.on Events.AnimationEnd, animation1.start
+
+
+

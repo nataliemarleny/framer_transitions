@@ -1,3 +1,6 @@
+bg = new BackgroundLayer
+	backgroundColor: "#862e9c"	
+
 # Create a SliderComponent
 
 sliderA = new SliderComponent

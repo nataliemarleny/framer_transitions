@@ -21,7 +21,7 @@ Table of Contents
 * 016 Modules
 * 017 PageComponent
 * [018 Pinchable](#018-pinchable)
-* 019 Print
+* [019 Print](#019-print)
 * [020 RangeSliderComponent](#020-rangeslidercomponent)
 * [021 Screen](#021-screen)
 * [022 ScrollComponent](#022-scrollcomponent-is-in-progress)
@@ -96,6 +96,12 @@ Table of Contents
 | 018 demo | options [11] |
 | :---: | :--- |
 | ![gif of pinchable transition](https://github.com/nataliemarleny/framer_transitions/blob/master/018_pinchable.framer/018_pinchable.gif)  | :large_orange_diamond::large_blue_diamond:<ul><li> pinchable.enabled = true</li><li> pinchable.centerOrigin = false (t default)</li><li> pinchable.minScale = 0.9</li><li> pinchable.maxScale = 2</li></ul> :large_orange_diamond:<ul><li> pinchable.threshold = 6</li><li> pinchable.rotate = false (t default)</li> <li> pinchable.scaleFactor = 1.2</li></ul> :large_blue_diamond: <ul><li> pinchable.rotateIncrements = 15</li><li> pinchable.rotateFactor = 0.5</li></ul> **Not Shown** <ul><li>pinchable.scaleIncrements = 0.5</li><li> pinchable.scale = false (t default)</li></ul>|
+
+## 019 print
+
+| 019 demo | options [0] |
+| :---: | :--- |
+| ![gif of print](https://github.com/nataliemarleny/framer_transitions/blob/master/019_print.framer/019_print.gif) | Want to use this section to show print in context |
 
 ## 020 rangeSliderComponent
 

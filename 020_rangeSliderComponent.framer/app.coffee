@@ -1,3 +1,6 @@
+bg = new BackgroundLayer
+	backgroundColor: "#ccedff"
+
 # Create a range slider
 
 range = new RangeSliderComponent
@@ -9,14 +12,14 @@ range = new RangeSliderComponent
 	minValue : 2 # 0 default
 	maxValue: 8 # 0.5 default
 
-range.backgroundColor = "#F9B2C1"
+range.backgroundColor = "#72c3fc"
 
 # knobSize
 # This property affects both minKnob and maxKnob
 range.knobSize = 30 # 30 default
 
 # fill
-range.fill.backgroundColor = "#EF2D56"
+range.fill.backgroundColor = "#1c7cd6"
 
 # minKnob
 range.minKnob.draggable.momentum = false

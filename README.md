@@ -26,7 +26,7 @@ Table of Contents
 * [021 Screen](#021-screen)
 * [022 ScrollComponent](#022-scrollcomponent-is-in-progress)
 * [023 SliderComponent](#023-slidercomponent)
-* 024 States
+* [024 States](#024-states)
 * [025 TextLayer](#025-textlayer)
 * [026 Utilities](#026-utilities)
 * [027 VideoLayer](#027-videolayer)
@@ -128,6 +128,13 @@ Table of Contents
 | 023 demo | options [9] |
 | :---: | :--- |
 | ![gif of sliderComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/023_sliderComponent.framer/023-slidercomponent.gif) | :heavy_minus_sign: <ul><li> silder.backgroundColor = "#e599f7"</li><li> slider.fill.backgroundColor = "#be4bdb"</li></ul>:white_circle:<ul><li> silder.knob.backgroundColor = "#FCF7FF"</li><li> slider.knobSize = 45 (30 default)</li><li> slider.knob.draggable.momentum = false (t default)</li></ul> :1234:<ul><li> silder.min = 0 (0 default)</li><li> slider.max = 100 (1 default)</li></ul> **Not Shown: To Add** <ul><li> silder.pointForValue</li><li> slider.valueForPoint</li><li> silder.animateToValue</li></ul> |
+
+## 024 states
+
+| 024 demo | options [2] |
+| :---: | :--- |
+| ![gif of states](https://github.com/nataliemarleny/framer_transitions/blob/master/024_states.framer/024-states.gif) |<ul><li>Current</li><li>Previous</li></ul> |
+
 
 ## 025 textLayer
 

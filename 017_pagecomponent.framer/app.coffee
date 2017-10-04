@@ -22,7 +22,7 @@
 # # Add the second page to the right 
 # page.addPage(pageTwo, "right")
 
-green = new Color("rgba(43,138,62, 0)")
+green = new Color("rgba(43,138,62, 1)")
 
 # Create a new PageComponent and only allow horizontal scrolling. 
 page = new PageComponent
@@ -37,7 +37,7 @@ for number in [0...5]
         width: page.width
         height: page.height
         x: page.width * number
-        backgroundColor: Utils.randomColor(0.5)
+        backgroundColor: green
         parent: page.content
  
     # Visualize the current page number 

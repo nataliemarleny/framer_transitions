@@ -1,3 +1,5 @@
+Canvas.backgroundColor = "#5f3dc4"
+
 scrollStart = Header.maxY-20
 
 scroll = new ScrollComponent

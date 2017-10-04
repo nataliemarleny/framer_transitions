@@ -6,8 +6,8 @@ sliderA = new SliderComponent
 	width: 250
 
 # Customise the appearance
-sliderA.backgroundColor = "#FCEEBB"
-sliderA.fill.backgroundColor = "#F6C106"
+sliderA.backgroundColor = "#e599f7"
+sliderA.fill.backgroundColor = "#be4bdb"
 
 # Customise the 'knob'
 sliderA.knob.backgroundColor = "#FCF7FF"

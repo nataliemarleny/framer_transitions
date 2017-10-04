@@ -95,7 +95,7 @@ Table of Contents
 
 | 012 demo | options [12] |
 | :---: | :--- |
-| ![gif of flowcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/013_gradient.framer/013-gradient.gif) | :banana: <ul><li>.showNext()</li><li>.showPrevious()</li><li>.showOverlayCenter()</li><li>.showOverlayTop()</li><li>.showOverlayRight()</li><li>.showOverlayBottom()</li><li>showOverlayLeft()</li><li>transition()</li><li>current</li><li>scroll</li><li>header</li><li>footer</li></ul> |
+| ![gif of flowcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent.framer/012-flowcomponent.gif) | :green_book:<br> **flow = new FlowComponent** <ul><li>flow.showNext(layerB, animate: true)</li><li>flow.showPrevious(animate: true)</li><li>.showOverlayCenter()</li><li>.showOverlayTop()</li><li>.showOverlayRight()</li><li>.showOverlayBottom()</li><li>showOverlayLeft()</li><li>transition()</li><li>current</li><li>scroll</li><li>header</li><li>footer</li></ul> |
 
 ## 013 gradient
 

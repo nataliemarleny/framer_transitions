@@ -107,7 +107,7 @@ Table of Contents
 
 | 021 demo | options [10] |
 | :---: | :--- |
-| ![gif of screen](https://github.com/nataliemarleny/framer_transitions/blob/master/021_screen.framer/021_screen.gif) | :barber: <ul><li>.backgroundColor</li></ul>:iphone: <ul><li>Screen.size</li><li>Screen.frame (read only)</li></ul> :iphone: - not shown: <ul><li>Screen.width</li><li>Screen.height</li></ul> :large_blue_diamond: <ul><li>Screen.perspective = 1000 (1200 by default)</li><li>Screen.perspectiveOriginX = 1 (default 0.5)</li><li>Screen.perspectiveOriginY = 1 (de0fault 0.5)</li></ul> **Not Shown/Not Sure**<ul><li>Screen.convertPointToCanvas(point)</li><li>Screen.convertPointToLayer(point, layer)</li></ul>
+| ![gif of screen](https://github.com/nataliemarleny/framer_transitions/blob/master/021_screen.framer/021-screen.gif) | :barber: <ul><li>.backgroundColor</li></ul> :large_blue_diamond: <ul><li>Screen.perspective = 1000 (1200 by default)</li><li>Screen.perspectiveOriginX = 1 (default 0.5)</li><li>Screen.perspectiveOriginY = 1 (default 0.5)</li></ul> :printer::iphone: (not shown, read only) <ul><li>Screen.size</li><li>Screen.frame (read only)</li></ul> :iphone: - not shown: <ul><li>Screen.width</li><li>Screen.height</li></ul>  **Not Shown/Not Sure**<ul><li>Screen.convertPointToCanvas(point)</li><li>Screen.convertPointToLayer(point, layer)</li></ul>
 
 
 

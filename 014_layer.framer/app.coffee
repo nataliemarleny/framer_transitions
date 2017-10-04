@@ -1,36 +1,48 @@
+# print layerA.id (unique identifier, read only)
+
 layerA = new Layer
-	x: 150
-	y: 150
-	z: 100 # perspective must be enabled on parent layer, diff from z-index
+	x: 50
+	y: 47
+	z: 0
+	backgroundColor: "#d9480f"
 	width: 100
 	height: 100
-	image: Utils.randomImage()
 
-layerA.name = "square" # will inherit sketch name if importing
-layerA.visible = true # true default
+animationA = new Animation layerA,
+	z: 100
 
-# print layerA.minX (same as layer.x)
+animationB = animationA.reverse()
+
+animationA.start()
+animationA.on Events.AnimationEnd, animationB.start
+animationB.on Events.AnimationEnd, animationA.start
+
+
 # print layerA.midX (horizontal center)
 # print layerA.maxX (right edge location)
-# print layerA.minY (same as layer.y)
 # print layerA.midY (vertical center)
 # print layerA.maxY (bottom edge location of the layer)
 
 layerB = new Layer
-layerB.size = 
+	minX: 150 # (same as layer.x)
+	minY: 47 # (same as layer.y)
+	gradient:
+		start: "#e8590c"
+		end: "#ffa94d"
+layerB.size =
 	width: 100
 	height: 100
 
-layerB.gradient =
-	start: "#05F"
-	end: "#0DF"
-	angle: 0
+layerB.name = "square1" # will inherit sketch name if importing
+layerB.visible = true # true default
 
 layerC = new Layer
 	width: 100
 	height: 100
-	x: Align.center()
-	y: Align.bottom()
-	borderRadius: 20
+	midX: 100 
+	midY: 200
+	image: "bg-orange.png"
+	borderRadius: 5
+	borderColor: "#d9480f"
 	borderWidth: 2
-	borderColor: "#05F"
+

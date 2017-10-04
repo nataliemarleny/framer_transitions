@@ -1,3 +1,6 @@
+bg = new BackgroundLayer
+	backgroundColor: "#ffe8cc"
+
 # print layerA.id (unique identifier, read only)
 
 layerA = new Layer

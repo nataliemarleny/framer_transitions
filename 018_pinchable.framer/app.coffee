@@ -1,10 +1,13 @@
+bg = new BackgroundLayer
+	backgroundColor: "#c3fae8"
+
 layerA = new Layer
     x: Align.center
     y: Align.top(100)
     borderRadius: 20
     height: 150
     width: 150
-    backgroundColor: "rgba(255,147,0,1)"
+    backgroundColor: "#38d9a9"
 
 layerB = new Layer
 	x: Align.center
@@ -12,11 +15,11 @@ layerB = new Layer
 	borderRadius: 20
 	height: 150
 	width: 150
-	backgroundColor: "rgba(0,150,255,1)"
+	backgroundColor: "#099268"
 	
 
 # pinchable.enabled is a boolean required to make the pinching happen
-# it doesn't do anything by itself :(
+# it doesn't do anything by itself :()
 
 layerA.pinchable.enabled = true
 layerB.pinchable.enabled = true

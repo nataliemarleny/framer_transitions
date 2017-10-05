@@ -43,7 +43,16 @@ layerB.onTap ->
 # flow.showOverlayCenter(layer, options.animate/options.scroll/options.modal)
 # modal is false by default
 # flow2 = new FlowComponent
-# 
-# layerB.onTap ->
-# 	flow2.showOverlayCenter(modal, modal: true)
 
+layerB.onTap ->
+	flow.showOverlayCenter(modal)
+
+.showOverlayTop()
+.showOverlayRight()
+.showOverlayBottom()
+showOverlayLeft()
+transition()
+current
+scroll
+header
+footer

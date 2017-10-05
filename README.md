@@ -89,7 +89,7 @@ Table of Contents
 
 | 011 demo | options [02] |
 | :---: | :--- |
-| ![gif of extras](https://github.com/nataliemarleny/framer_transitions/blob/master/011_extras.framer/011-extras.gif) | :id: <ul><li>Framer.Extras.Hints.enable()</li>If you want your hints to show immediately: <li>Framer.Extras.Hints.showHints()</li></ul> **To Add** <ul><li>Framer.Extras.Preloader.enable()</li><li>Framer.Extras.Preloader.setLogo()</li></ul>|
+| ![gif of extras](https://github.com/nataliemarleny/framer_transitions/blob/master/011_extras.framer/011_extras.gif) | :id: **Hints can be customised** <ul><li>Framer.Extras.Hints.enable()</li>If you want your hints to show immediately: <li>Framer.Extras.Hints.showHints()</li></ul> **To Add** <ul><li>Framer.Extras.Preloader.enable()</li><li>Framer.Extras.Preloader.setLogo()</li></ul>|
 
 ## 012 flowcomponent is in progress
 

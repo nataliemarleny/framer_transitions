@@ -20,14 +20,13 @@ animationA.start()
 animationA.on Events.AnimationEnd, animationB.start
 animationB.on Events.AnimationEnd, animationA.start
 
-
 # print layerA.midX (horizontal center)
 # print layerA.maxX (right edge location)
 # print layerA.midY (vertical center)
 # print layerA.maxY (bottom edge location of the layer)
 
 layerB = new Layer
-	minX: 150 # (same as layer.x)
+	minX: 160 # (same as layer.x)
 	minY: 47 # (same as layer.y)
 	gradient:
 		start: "#e8590c"
@@ -49,3 +48,14 @@ layerC = new Layer
 	borderColor: "#d9480f"
 	borderWidth: 2
 
+layerD = new Layer
+	size: 100
+	maxX: 260
+	maxY: 250
+
+layerE = new Layer
+	size: 100
+
+layerE.point =
+	x: 50
+	y: 260

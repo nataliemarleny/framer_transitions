@@ -122,79 +122,79 @@ layerD = new Layer
 
 
 
-layerE = new Layer
-	x: Align.left(10)
-	y: Align.center(-60)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#20c997"
-
-layerF = new Layer
-	x: Align.left(10)
-	y: Align.center(-3)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#38d9a9"
-
-layerG = new Layer
-	x: Align.left(10)
-	y: Align.center(54)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#63e6be"
-
-layerH = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-198)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#96f2d7"
-
-layerI = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-140)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#c3fae8"
-
-layerJ = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-84)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#e6fcf5"
-
-
-# Force Tap Events
-# .onForceTap 
-# .onForceTapChange
-# .onForceTapStart
-# .onForceTapEnd 
-
-layerJ = new Layer
-	x: Align.left(10)
-	y: Align.bottom(-84)
-	size: 50
-	borderRadius: 5
-	backgroundColor: "#e6fcf5"
-
-layerJ.onForceTap ->
-	layerJ.animate
-		backgroundColor: "#96f2d7"
-
-layerJ.onForceTapEnd ->
-	layerJ.animate
-		backgroundColor: "#099268"
-
-# Pan
-# .onPan
-# .onPanStart
-# .onPanMove
-# .onPanEnd
-# .onPanLeft
-# .onPanRight
-# .onPanUp
-# .onPanDown
-
-
-
+# layerE = new Layer
+# 	x: Align.left(10)
+# 	y: Align.center(-60)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#20c997"
+# 
+# layerF = new Layer
+# 	x: Align.left(10)
+# 	y: Align.center(-3)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#38d9a9"
+# 
+# layerG = new Layer
+# 	x: Align.left(10)
+# 	y: Align.center(54)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#63e6be"
+# 
+# layerH = new Layer
+# 	x: Align.left(10)
+# 	y: Align.bottom(-198)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#96f2d7"
+# 
+# layerI = new Layer
+# 	x: Align.left(10)
+# 	y: Align.bottom(-140)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#c3fae8"
+# 
+# layerJ = new Layer
+# 	x: Align.left(10)
+# 	y: Align.bottom(-84)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#e6fcf5"
+# 
+# 
+# # Force Tap Events
+# # .onForceTap 
+# # .onForceTapChange
+# # .onForceTapStart
+# # .onForceTapEnd 
+# 
+# layerJ = new Layer
+# 	x: Align.left(10)
+# 	y: Align.bottom(-84)
+# 	size: 50
+# 	borderRadius: 5
+# 	backgroundColor: "#e6fcf5"
+# 
+# layerJ.onForceTap ->
+# 	layerJ.animate
+# 		backgroundColor: "#96f2d7"
+# 
+# layerJ.onForceTapEnd ->
+# 	layerJ.animate
+# 		backgroundColor: "#099268"
+# 
+# # Pan
+# # .onPan
+# # .onPanStart
+# # .onPanMove
+# # .onPanEnd
+# # .onPanLeft
+# # .onPanRight
+# # .onPanUp
+# # .onPanDown
+# 
+# 
+# 

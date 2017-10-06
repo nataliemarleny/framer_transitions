@@ -95,7 +95,7 @@ Table of Contents
 
 | 012 demo | options [12] |
 | :---: | :--- |
-| ![gif of flowcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent.framer/012-flowcomponent.gif) | :green_book:<br> **flow = new FlowComponent** <ul><li>flow.showNext(layerB, animate: true)</li><li>flow.showPrevious(animate: true)</li><li>.showOverlayCenter()</li><li>.showOverlayTop()</li><li>.showOverlayRight()</li><li>.showOverlayBottom()</li><li>showOverlayLeft()</li><li>transition()</li><li>current</li><li>scroll</li><li>header</li><li>footer</li></ul> |
+| ![gif of flowcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent.framer/012_flowcomponent.gif) | :green_book:<br> **flow = new FlowComponent** <ul><li>flow.showNext(layerB, animate: true)</li><li>flow.showPrevious(animate: true)</li></ul> **Overlays** <ul><li>flow.showOverlayCenter(modal, modal: true)</li><li>flow.showOverlayTop(notification)</li><li>hamburger.onTap -><br>flow.showOverlayLeft(swipeMenu)</li></ul> **Not shown but similar** <ul><li>.showOverlayRight()</li><li>.showOverlayBottom()</li></ul> **Header and Footer** <ul><li>header (creates a sticky header)<br><br>navBar = newLayer<br>flow.header = navBar</li><br><li>footer (creates a sticky footer)<br><br>tabBar = new Layer<br>flow.footer = tabBar</li></ul><br> **To Add** <ul><li>transition()</li><li>current</li><li>scroll !!!</li></ul> |
 
 ## 013 gradient
 

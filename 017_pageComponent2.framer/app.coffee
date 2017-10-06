@@ -1,5 +1,7 @@
+# pageComponent
 # designed for paginated instead of continuous content
 
+# page = new PageComponent
 # Create a new PageComponent and only allow horizontal scrolling. 
 page = new PageComponent
     width: Screen.width
@@ -37,8 +39,39 @@ pageTwo = new Layer
     height: page.height
     backgroundColor: "#d3f9d8"
 
+#-#-#-#-#-#-#-#-#-#-#-#-#
+
+# page.addPage(layername, "right")
 # Add the second page to the right 
 page.addPage(pageTwo, "right")
 page.addPage(pageThree, "right")
 page.addPage(pageFour, "right")
 page.addPage(pageFive, "right")
+
+# page.originX
+page.originX = 0.5 # default 0.5
+
+# page.originY
+page.originY = 0.5 # default 0.5
+
+# page.velocityThreshold
+# Switch to be based on distance, increase the VT
+page.velocityThreshold = 5
+
+page.on Events.ScrollEnd, ->
+	print Math.abs(page.velocity.x)
+
+# page.animationOptions
+page.animationOptions =
+	curve: Bezier.ease
+	time: 1
+
+# page.currentPage (read only)
+print page.currentPage
+
+# page.closestPage (read only)
+page.on Events.ScrollEnd, ->
+	print page.closestPage
+
+
+

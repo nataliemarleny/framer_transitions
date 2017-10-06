@@ -10,16 +10,12 @@
 # options / animation options - optional
 
 # Layers
-layerA = new Layer
-	size: Screen.size
-	backgroundColor: "#d8f5a2"
 
 layerB = new Layer
 	size: Screen.size
 	backgroundColor: "#e9fac8"
 
 layerC = new Layer
-	parent: layerA
 	width: Screen.width
 	height: Screen.height + 600
 	backgroundColor: "#f4fce3"
@@ -51,6 +47,32 @@ cPicture = new Layer
 	y: 20
 	width: 220
 
+cBlock2 = new Layer
+	parent: layerC
+	width: Screen.width - 50
+	x: Align.center()
+	height: 60
+	borderRadius: 5
+	y: 500
+	backgroundColor: "#82c91e"
+
+cContent2 = new Layer
+	parent: layerC
+	width: Screen.width - 50
+	x: Align.center()
+	height: 300
+	y: 570
+	borderRadius: 5
+	backgroundColor: "#c0eb75"
+
+cPicture2 = new Layer
+	parent: cContent2
+	borderRadius: 5
+	x: Align.center()
+	backgroundColor: "#a9e34b"
+	y: 20
+	width: 220
+
 #heart
 heartEmptyState.parent = cContent
 heartEmptyState.props =
@@ -64,15 +86,6 @@ heartActiveState.props =
 	x: 17
 	y: 234
 	scale: 0.8
-
-cContent2 = new Layer
-	parent: layerC
-	width: Screen.width - 50
-	x: Align.center()
-	height: 300
-	y: 200+300+20
-	borderRadius: 5
-	backgroundColor: "#a9e34b"
 
 # Profile Page
 profilePic.parent = layerB
@@ -97,23 +110,18 @@ btn1.parent = layerB
 modal.parent = layerC
 notification.parent = layerB
 
-# Create FlowComponent
 flow = new FlowComponent
 
-# Show the layer
-flow.showNext(layerA)
-
 # flow.showNext(layer, options.animate/options.scroll)
+
 # flow.showPrevious(options.animate/options.scroll)
 layerB.onSwipeRight ->
 	flow.showPrevious(animate: true)
 
-
-# flow.showOverlayCenter(layer, options.animate/options.scroll/options.modal)
 # modal is false by default
 # use modal: true if you don't want overlay to be clickable
 
-# Heart Animation
+# flow.showOverlayCenter(layer, options.animate/options.scroll/options.modal)
 heartEmptyState.onTap ->
 	modal.visible = true
 	flow.showOverlayCenter(modal, modal: false)
@@ -124,23 +132,17 @@ heartActiveState.onTap ->
 	heartEmptyState.visible = true
 	heartActiveState.visible = false
 
-
-
 # Notification Animation
 btn1.onMouseOver ->
 	notification.visible = true
 	flow.showOverlayTop(notification)
-
-# transition()
-# current
-# scroll
-
 
 # NavBar
 navBar = new Layer
 	height: 75
 	backgroundColor: "#82c91e"
 
+# Side Menu
 hamburger.scale = 0.75
 hamburger.y = 14
 hamburger.parent = navBar
@@ -160,6 +162,11 @@ tabBar = new Layer
 	backgroundColor: "#5c940d"
 
 flow.footer = tabBar
+
+# Scroll
+flow.showNext(layerC)
+flow.scroll.contentInset =
+	top: 0
 
 # Switch to layerB
 moreBtn.onTap ->

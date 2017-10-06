@@ -7,7 +7,7 @@ page = new PageComponent
     width: Screen.width
     height: Screen.height
     scrollVertical: false
- 
+
 # Define the first page 
 pageOne = new Layer
     width: page.width
@@ -73,5 +73,27 @@ print page.currentPage
 page.on Events.ScrollEnd, ->
 	print page.closestPage
 
+# page.nextPage()
 
+# page.previousPage
+
+#page.snapToPage()
+pageSix = new Layer
+    width: page.width
+    height: page.height
+    backgroundColor: "#fcc419"
+
+page.addPage(pageSix, "left")
+
+page.snapToPage(pageTwo, false) #not totally sure about the logic of true/false
+
+# page.snapToNextPage()
+
+# snapToPreviousPage()
+
+# page.horitzontalPageIndex(pageThree)
+print page.horizontalPageIndex(pageThree)
+
+# page.verticalPageIndex(pageThree)
+print page.verticalPageIndex(pageThree)
 

@@ -33,26 +33,45 @@ flow.showNext(layerA)
 # flow.showNext(layer, options.animate/options.scroll)
 
 # Switch to layerB
-layerA.onTap ->
+layerA.onSwipeLeft ->
 	flow.showNext(layerB, animate: true)
 
 # flow.showPrevious(options.animate/options.scroll)
-layerB.onTap ->
+layerB.onSwipeRight ->
 	flow.showPrevious(animate: true)
 
 # flow.showOverlayCenter(layer, options.animate/options.scroll/options.modal)
 # modal is false by default
 # flow2 = new FlowComponent
 
-layerB.onTap ->
-	flow.showOverlayCenter(modal)
+layerB.onDoubleTap ->
+	flow.showOverlayCenter(modal, modal: false)
 
-.showOverlayTop()
-.showOverlayRight()
-.showOverlayBottom()
-showOverlayLeft()
-transition()
-current
-scroll
-header
-footer
+# use modal: true if you don't want overlay to be clickable
+
+swipemenu.parent = layerA
+btn1.parent = layerB
+modal.parent = layerB
+notification.parent = layerB
+
+btn1.propagateEvents = false
+
+
+btn1.onLongPress ->
+	flow.showOverlayTop(notification)
+
+# .showOverlayLeft()
+# .showOverlayRight()
+# .showOverlayBottom()
+
+layerA.onLongPress ->
+	flow.showOverlayLeft(swipemenu)
+
+
+
+
+# transition()
+# current
+# scroll
+# header
+# footer

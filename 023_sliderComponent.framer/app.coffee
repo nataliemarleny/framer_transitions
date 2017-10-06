@@ -24,10 +24,11 @@ sliderA.max = 100 # set to 1 by default
 # Getting Fancy
 # print the above value
 sliderA.on "change:value", ->
-	print this.value
+	print Utils.round(this.value)
 
 # this is useful for retrieving the value or mapping it to another layer property
 
+sliderA.animateToValue(20, { curve: Spring })
+
 # slider.valueForPoint
 # slider.valueForPoint
-# slider.animateToValue

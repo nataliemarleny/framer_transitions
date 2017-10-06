@@ -149,7 +149,7 @@ Table of Contents
 
 | 023 demo | options [9] |
 | :---: | :--- |
-| ![gif of sliderComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/023_sliderComponent.framer/023-slider.gif) | **slider = new SliderComponent** <br> :heavy_minus_sign: <ul><li> silder.backgroundColor = "#e599f7"</li><li> slider.fill.backgroundColor = "#be4bdb"</li></ul>:white_circle:<ul><li> silder.knob.backgroundColor = "#FCF7FF"</li><li> slider.knobSize = 45 (30 default)</li><li> slider.knob.draggable.momentum = false (t default)</li></ul> :1234:<ul><li> silder.min = 0 (0 default)</li><li> slider.max = 100 (1 default)</li></ul> **Not Shown: To Add** <ul><li> silder.pointForValue</li><li> slider.valueForPoint</li><li> silder.animateToValue</li></ul> |
+| ![gif of sliderComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/023_sliderComponent.framer/023_sliderComponent_.gif) | **slider = new SliderComponent** <br><br> :heavy_minus_sign: <ul><li> silder.backgroundColor = "#e599f7"</li><li> slider.fill.backgroundColor = "#be4bdb"</li></ul>:white_circle:<ul><li> silder.knob.backgroundColor = "#FCF7FF"</li><li> slider.knobSize = 45 (30 default)</li><li> slider.knob.draggable.momentum = false (t default)</li></ul> :1234:<ul><li> silder.min = 0 (0 default)</li><li> slider.max = 100 (1 default)</li></ul> :zap: <ul><li> silder.animateToValue(20, {curve: Spring } )</li></ul> **Not Shown: To Add** <ul><li> silder.pointForValue</li><li> slider.valueForPoint</li></ul> |
 
 ## 024 states
 

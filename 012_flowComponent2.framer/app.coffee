@@ -34,7 +34,7 @@ flow = new FlowComponent
 flow.showNext(layerA)
  
 # Switch to layerB with custom transition 
-# arguments: scaleTransition = (layer, transition, [options.animate] [options.scroll])
+# arguments: flow.transition = (layer, transition, [options.animate] [options.scroll])
 layerA.onClick ->
     flow.transition(layerB, scaleTransition)
 

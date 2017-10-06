@@ -113,7 +113,7 @@ Table of Contents
 
 | 017 demo | options [14] |
 | :---: | :--- |
-| ![gif of pageComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/017_pagecomponent.framer/017-pagecomponent.gif)  | :evergreen_tree::green_heart: <ul><li>.originX</li><li>.originY</li><li>.velocityThreshold</li><li>.animationOptions</li><li>.currentPage</li><li>.closestPage</li><li>.nextPage()</li><li>.previousPage</li><li>.snapToPage()</li><li>.snapToNextPage()</li><li>.snapToPreviousPage()</li><li>.addPage()</li><li>.horizontalPageIndex()</li><li>.verticalPageIndex()</li></ul>|
+| ![gif of pageComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/017_pageComponent2.framer/017_pageComponent.gif)  | :evergreen_tree::green_heart: <ul><li>.originX</li><li>.originY</li><li>.velocityThreshold</li><li>.animationOptions</li><li>.currentPage</li><li>.closestPage</li><li>.nextPage()</li><li>.previousPage</li><li>.snapToPage()</li><li>.snapToNextPage()</li><li>.snapToPreviousPage()</li><li>.addPage()</li><li>.horizontalPageIndex()</li><li>.verticalPageIndex()</li></ul>|
 
 ## 018 pinchable
 

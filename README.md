@@ -14,7 +14,7 @@ Table of Contents
 * [009 Draggable](#009-draggable)
 * [010 Events (in progress)](#010-events-is-in-progress)
 * [011 Extras](#011-extras)
-* [012 FlowComponent (in progress)](#012-flowcomponent-is-in-progress)
+* [012 FlowComponent](#012-flowcomponent)
 * [013 Gradient](#013-gradient)
 * [014 Layer (in progress)](#014-layer-is-in-progress)
 * 015 MIDIComponent: Need a MIDI device to test this
@@ -91,11 +91,11 @@ Table of Contents
 | :---: | :--- |
 | ![gif of extras](https://github.com/nataliemarleny/framer_transitions/blob/master/011_extras.framer/011_extras.gif) | :id: **Hints can be customised** <ul><li>Framer.Extras.Hints.enable()</li>If you want your hints to show immediately: <li>Framer.Extras.Hints.showHints()</li></ul> :clock10: **Preloader - only enabled outside of Framer, i.e. mirroring** <ul><li>Framer.Extras.Preloader.enable()</li><li>Framer.Extras.Preloader.setLogo()</li></ul>|
 
-## 012 flowcomponent is in progress
+## 012 flowcomponent
 
 | 012 demo | options [12] |
 | :---: | :--- |
-| ![gif of flowcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent.framer/012_flowcomponent.gif)![gif of flowcomponent transition](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent2.framer/012_flowComponent2.gif)| :green_book:<br> **flow = new FlowComponent** <ul><li>flow.showNext(layerB, animate: true)</li><li>flow.showPrevious(animate: true)</li></ul> **Overlays** <ul><li>flow.showOverlayCenter(modal, modal: true)</li><li>flow.showOverlayTop(notification)</li><li>hamburger.onTap -><br>flow.showOverlayLeft(swipeMenu)</li></ul> **Not shown but similar** <ul><li>.showOverlayRight()</li><li>.showOverlayBottom()</li></ul> **Header and Footer** <ul><li>header (creates a sticky header)<br><br>navBar = newLayer<br>flow.header = navBar</li><br><li>footer (creates a sticky footer)<br><br>tabBar = new Layer<br>flow.footer = tabBar</li></ul> :beginner: <ul><li>flow.transition = (layer, transition, [options.animate] [options.scroll])</li><li>Custom transition is a function that returns an object with states</li><li>This gif shows a custom transition function from Framer Docs</li></ul>**Not Shown**<li>print flow.current (shows current page)</li></ul> **To Add**<li>scroll !!!</li></ul> |
+| ![gif of flowcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent.framer/012_flowComponent1.gif)![gif of flowcomponent transition](https://github.com/nataliemarleny/framer_transitions/blob/master/012_flowComponent2.framer/012_flowComponent2.gif)| :green_book:<br> **flow = new FlowComponent** <ul><li>flow.showNext(layerB, animate: true)</li><li>flow.showPrevious(animate: true)</li><li>scroll - have to be careful about order</li></ul> **Header and Footer** <ul><li>header (creates a sticky header)<br><br>navBar = newLayer<br>flow.header = navBar</li><br><li>footer (creates a sticky footer)<br><br>tabBar = new Layer<br>flow.footer = tabBar</li></ul> **Overlays** <ul><li>flow.showOverlayCenter(modal, modal: true)</li><li>flow.showOverlayTop(notification)</li><li>hamburger.onTap -><br>flow.showOverlayLeft(swipeMenu)</li></ul> **Not shown but similar** <ul><li>.showOverlayRight()</li><li>.showOverlayBottom()</li></ul> :beginner: <ul><li>flow.transition = (layer, transition, [options.animate] [options.scroll])</li><li>Custom transition is a function that returns an object with states</li><li>This gif shows a custom transition function from Framer Docs</li></ul>**Not Shown** :printer: <li>print flow.current (shows current page)</li></ul>|
 
 ## 013 gradient
 

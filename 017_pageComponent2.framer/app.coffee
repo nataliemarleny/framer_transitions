@@ -87,9 +87,18 @@ page.addPage(pageSix, "left")
 
 page.snapToPage(pageTwo, false) #not totally sure about the logic of true/false
 
-# page.snapToNextPage()
+# Takes three arguments: a page.content layer, animate t/f, animation options
+# automatically scroll to pageFour
+page.snapToPage(
+	pageFive
+	true
+	animationOptions = time: 2
+)
 
-# snapToPreviousPage()
+# page.snapToNextPage(page, animate, animationOptions)
+
+# page.snapToPreviousPage(direction, animate, animationOptions)
+# page.snapToPreviousPage()
 
 # page.horitzontalPageIndex(pageThree)
 print page.horizontalPageIndex(pageThree)

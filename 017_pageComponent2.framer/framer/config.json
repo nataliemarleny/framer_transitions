@@ -2,10 +2,11 @@
   "orientation" : 0,
   "updateDelay" : 0.3,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 0,
+  "cachedDeviceHeight" : 667,
   "contentScale" : 1,
-  "cachedDeviceWidth" : 0,
-  "deviceType" : "fullscreen",
+  "cachedDeviceWidth" : 375,
+  "fullScreen" : false,
+  "deviceType" : "apple-iphone-7-black",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
@@ -31,5 +32,5 @@
     "{2201, 81}",
     "{2283, 76}"
   ],
-  "deviceScale" : 1
+  "deviceScale" : "fit"
 }

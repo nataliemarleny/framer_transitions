@@ -1,3 +1,5 @@
+# iPhone X vanity code!
+
 Framer.Device.customize
     deviceType: Framer.Device.Type.Phone
     screenWidth: 375
@@ -10,13 +12,20 @@ Framer.Device.customize
 if not Framer.Device._hideBezel
 	Framer.Device.screen.z = -1
 
-# -------------------------------------------
-new BackgroundLayer backgroundColor: "white"
+
+
+# layerA = new VideoLayer
 
 layerA = new VideoLayer
 	size: Screen.height
 	x: Align.center
 	scale: 1
-	video: "images/output.MOV"
+	video: "./images/output.MOV"
+
+# layerA.player.autoplay = true
 
 layerA.player.autoplay = true
+
+# layerA.player.fastSeek(2)
+
+layerA.player.fastSeek(2)

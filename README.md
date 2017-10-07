@@ -113,7 +113,7 @@ Table of Contents
 
 | 017 demo | options [14] |
 | :---: | :--- |
-| ![gif of pageComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/017_pageComponent2.framer/017_pageComponent.gif)  | :evergreen_tree::green_heart: <ul><li>.originX</li><li>.originY</li><li>.velocityThreshold</li><li>.animationOptions</li><li>.currentPage</li><li>.closestPage</li><li>.nextPage()</li><li>.previousPage</li><li>.snapToPage()</li><li>.snapToNextPage()</li><li>.snapToPreviousPage()</li><li>.addPage()</li><li>.horizontalPageIndex()</li><li>.verticalPageIndex()</li></ul>|
+| ![gif of pageComponent](https://github.com/nataliemarleny/framer_transitions/blob/master/017_pageComponent2.framer/017_pageComponent.gif)  | **page = new PageComponent**<br><br> :evergreen_tree::green_heart: <ul><li>page.addPage(layername, "right")</li><li>page.originX</li><li>page.originY</li><li>page.velocityThreshold = 5<br>switch to be based on distance</li><li>page.animationOptions = <br>  curve: Bezier.ease<br>  time: 1</li><li>page.currentPage (read only)</li><li>page.closestPage (read only)</li><li>page.previousPage</li><li>page.snapToPage(<br>- pageFive<br>- true<br>- animationOptions = time: 2<br>)</li><li>page.snapToNextPage (page, animate, animationOptions )</li><li>page.snapToPreviousPage(direction, animate, animationOptions)</li><li>page.horizontalPageIndex(pageThree)</li><li>page.verticalPageIndex(pageThree)</li></ul> **To Add** <ul><li>.nextPage()</li></ul>|
 
 ## 018 pinchable
 

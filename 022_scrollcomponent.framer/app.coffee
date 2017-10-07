@@ -1,4 +1,8 @@
+# A ScrollComponent is built with two layers
+
 Canvas.backgroundColor = "#5f3dc4"
+
+
 
 scrollStart = Header.maxY-20
 
@@ -15,9 +19,3 @@ scroll = new ScrollComponent
 	
 scroll.sendToBack()
 Feed.parent = scroll.content
-
-# not pictured ScrollComponent.wrap(layer)
-# not pictured scroll.wrap(layer)
-# scroll.updateContent()
-# scroll.copy
-# scroll.propagateEvents

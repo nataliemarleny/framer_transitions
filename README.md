@@ -35,7 +35,7 @@ Table of Contents
 
 | 001 demo | options [5] |
 | :---: | :--- |
-| ![gif of align transition](https://github.com/nataliemarleny/framer_transitions/blob/master/001_align.framer/001_alignoffset.gif)  | **Align** <ul><li> Align.bottom()</li><li> Align.center()</li><li> Align.left()</li><li> Align.right()</li><li> Align.top()</li></ul> **Offset** <ul><li> Align.bottom(-50)</li><li> Align.center(50)</li><li> Align.left(50)<li> Align.right(-50)</li><li> Align.top(50)</li></ul> |
+| ![gif of align transition](https://github.com/nataliemarleny/framer_transitions/blob/master/001_align.framer/001_alignoffset.gif)  | **layerA = new Layer**<br><br> **Align** <ul><li> y: Align.bottom()</li><li> x and y: Align.center()</li><li> x: Align.left()</li><li> x: Align.right()</li><li> y: Align.top()</li></ul> **Offset** <ul><li> y: Align.bottom(-50)</li><li> x and y: Align.center(50)</li><li> x: Align.left(50)<li> x: Align.right(-50)</li><li> y: Align.top(50)</li></ul> |
 
 ## 002 animation
 
@@ -65,7 +65,7 @@ Table of Contents
 
 | 007 demo | options [0] |
 | :---: | :--- |
-| ![gif of defaults](https://github.com/nataliemarleny/framer_transitions/blob/master/007_defaults.framer/007-defaults.gif)  | **Framer.Defaults.Layer.size = 100** :large_blue_diamond: :large_blue_diamond:<ul><li>Framer.Defaults.Layer.borderRadius = 12</li><li>Framer.Defaults.Layer.size = 100</li><li>Framer.Defaults.Animation =<br> curve: Spring(damping: 0.75)</li></ul> Replicated layer to demonstrate default change<br><br> :warning:<ul><li>Order default overrides first</li><li>Layers include bg layer</li></ul> |
+| ![gif of defaults](https://github.com/nataliemarleny/framer_transitions/blob/master/007_defaults.framer/007-defaults.gif)  | **Framer.Defaults.Layer.size = 100**<br><br> :large_blue_diamond: :large_blue_diamond:<ul><li>Framer.Defaults.Layer.borderRadius = 12</li><li>Framer.Defaults.Layer.size = 100</li><li>Framer.Defaults.Animation =<br> curve: Spring(damping: 0.75)</li></ul> Replicated layer to demonstrate default change<br><br> :warning:<ul><li>Order default overrides first</li><li>Layers include bg layer</li></ul> |
 
 ## 008 device
 

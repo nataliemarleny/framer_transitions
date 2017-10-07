@@ -1,12 +1,15 @@
-bg = new BackgroundLayer
+layerZ = new Layer
+	width: Screen.width
+	height: Screen.height
 	backgroundColor: "#12b886"
+
 Utils.loadWebFont("Open Sans")
 
-
+# slider.onValueChange
 slider = new SliderComponent
 	x: Align.center
-	y: Align.top(125)
-	backgroundColor: "#69db7c"
+	y: Align.bottom(-50)
+	backgroundColor: "#20c997"
 	min: 0
 	max: 100
 	width: Screen.width - 100
@@ -18,10 +21,11 @@ slider.animateToValue(20, { curve: Spring })
 layerA = new Layer
 	size: 50
 	borderRadius: 100
-	x: Align.center()
 	y: 20
 	backgroundColor: "#099268"
 	opacity: 1
+	x: Align.center()
+	y: Align.bottom(-100)
 
 textA = new TextLayer
 	parent: layerA

@@ -143,7 +143,7 @@ Table of Contents
 
 | 022 demo | options [28] |
 | :---: | :--- |
-| ![gif of scrollcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/022_scrollcomponent.framer/022-scroll.gif) | :scroll: <ul><li>.contentInset = </li>top: 150<li>.speedX: 1 (default 1)</li><li>scrollVertical: true</li><li>scrollHorizontal: false</li></ul> **Not Shown** <ul><li>.content</li><li>.speedY: 1 (default 1)</li></ul>
+| ![gif of scrollcomponent](https://github.com/nataliemarleny/framer_transitions/blob/master/022_scrollcomponent.framer/022-scroll.gif) | **scroll = new ScrollComponent**<br><ul><li>ScrollComponent is built with two layers</li><li>The scroll component itself masks another layer</li></ul><br><br> :scroll: <ul><li>.scroll: true</li><li>.scrollVertical: true</li><li>.scrollHorizontal: false</li><li>.speedX: 1 (default 1)</li><li>.mouseWheelEnabled: true (default f)</li><li>.contentInset = <br>  top: 150</li></ul> **To Add** <ul><li>.content</li><li>.speedY: 1 (default 1)</li><li>.scrollX</li><li>.scrollY</li><li>.scrollPoint</li><li>.scrollFrame</li><li>.velocity</li><li>.direction</li><li>.directionLock</li><li>.directionLockThreshold</li><li>.angle</li><li>.isDragging</li><li>.isMoving</li><li>.closestContentLayer()</li><li>.closestContentLayerForScrollPoint()</li><li>.scrollToPoint</li><li>.scrollToLayer</li><li>.scrollToClosestLayer()</li><li>.wrap() !!!!</li><li>.updateContent()</li><li>.copy</li><li>.propagateEvents</li></ul>
 
 ## 023 sliderComponent
 

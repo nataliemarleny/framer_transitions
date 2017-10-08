@@ -1,7 +1,9 @@
-layerZ = new Layer
+bg = new BackgroundLayer
+	backgroundColor: "#12b886"
 	width: Screen.width
 	height: Screen.height
-	backgroundColor: "#12b886"
+
+
 
 Utils.loadWebFont("Open Sans")
 
@@ -45,3 +47,17 @@ slider.onValueChange ->
 	textA.animate
 		template:
 			indicate: (slider.value)
+
+layerQ = new Layer
+	x: Align.center
+	borderRadius: 5
+	y: 25
+	size: 150
+	backgroundColor: "#099268"
+
+
+Screen.onEdgeSwipe ->
+	layerQ.x = 300
+
+Screen.onEdgeSwipeEnd ->
+	layerQ.x = Align.center

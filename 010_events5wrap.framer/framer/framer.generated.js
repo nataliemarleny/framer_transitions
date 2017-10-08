@@ -7,7 +7,7 @@ if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","se
 }
 if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"iphone-hands-2","deviceType":"apple-watch-series-2-38mm-black-steel-black","contentScale":1,"hideBezel":true,"orientation":0};
 }
-window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"010_events5-4-wrap.framer"};
+window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"010_events5wrap.framer"};
 
 Framer.Device = new Framer.DeviceView();
 Framer.Device.setupContext();

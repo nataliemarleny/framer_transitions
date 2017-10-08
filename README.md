@@ -139,7 +139,19 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **IN PROGRESS** <ul><li>[ ] center()</li><li>[ ] centerX()</li><li>[ ] centerY()</li><li>[ ] pixelAlign()</li><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li><li>[ ] color</li><li>[ ] clip</li><li>[ ] ignoreEvents</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] computedStyle()</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li><li>[ ] blur</li><li>[ ] backgroundBlur</li><li>[ ] blending</li><li>[ ] shadows</li><li>[ ] shadowX</li><li>[ ] shadowY</li><li>[ ] shadowBlur</li><li>[ ] shadowSpread</li><li>[ ] shadowColor</li><li>[ ] shadowType</li><li>[ ] animate</li><li>[ ] animationOptions</li><li>[ ] animations()</li><li>[ ] isAnimating</li><li>[ ] animateStop()</li><li>[ ] stateSwitch()</li><li>[ ] stateCycle()</li><li>[ ] stateNames</li><li>[ ] point</li><li>[ ] convertPointToCanvas()</li><li>[ ] convertPointToScreen()</li><li>[ ] convertPointToLayer()</li><li>[ ] on()</li><li>[ ] off()</li></ul>|
+| | **ANIMATION - STATES** <ul><li>[ ] animate</li><li>[ ] animationOptions</li><li>[ ] animations()</li><li>[ ] isAnimating</li><li>[ ] animateStop()</li><li>[ ] stateSwitch()</li><li>[ ] stateCycle()</li><li>[ ] stateNames</li></ul>|
+
+| 014 demo | options [95] |
+| :---: | :--- |
+| | **SHADOWS - BLUR** <ul><li>[ ] blur</li><li>[ ] backgroundBlur</li><li>[ ] blending</li><li>[ ] shadows</li><li>[ ] shadowX</li><li>[ ] shadowY</li><li>[ ] shadowBlur</li><li>[ ] shadowSpread</li><li>[ ] shadowColor</li><li>[ ] shadowType</li></ul>|
+
+| 014 demo | options [95] |
+| :---: | :--- |
+| | **CONVERTPOINTTOCANVAS()** <ul><li>[ ] point</li><li>[ ] convertPointToCanvas()</li><li>[ ] convertPointToScreen()</li><li>[ ] convertPointToLayer()</li><li>[ ] on()</li><li>[ ] off()</li></ul>|
+
+| 014 demo | options [95] |
+| :---: | :--- |
+| | **IN PROGRESS** <ul><li>[ ] center()</li><li>[ ] centerX()</li><li>[ ] centerY()</li><li>[ ] pixelAlign()</li><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li><li>[ ] color</li><li>[ ] clip</li><li>[ ] ignoreEvents</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] computedStyle()</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li>|
 
 ## 017 pageComponent
 

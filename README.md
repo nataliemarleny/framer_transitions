@@ -91,7 +91,7 @@ Table of Contents
 
 | 010 demo 3 | options [10 - 13 / 22] |
 | :---: | :--- |
-| **Events 3**<br>Animation . State . Drag . Scroll<br><br> ![gif of events animation . state . drag . scroll](https://github.com/nataliemarleny/framer_transitions/blob/master/010_events1.framer/010_events_1.gif)  | **[12] Animation** <ul><li>.AnimationStart / .AnimationStop / .AnimationEnd</li></ul> **[13] State** <ul><li>.StateSwitchStart</li><li>.StateSwitchStop / .StateSwitchEnd</li></ul> **[14] Drag** <ul><li>.Move (the layer is moving)</li><li>.Drag / .DragStart / .DragEnd </li><li> .DragAnimationStart / .DragAnimationEnd</li><li> .DirectionLockStart (Did start lock direction?)</li></ul> **[15] Scroll** <ul><li>.Move (the layer is moving)</li><li>.Scroll / .ScrollStart / .ScrollEnd</li><li>.ScrollAnimationDidStart / .ScrollAnimationDidEnd</li></ul>|
+| **Events 3**<br>Animation . State . Drag . Scroll<br><br> ![gif of events animation . state . drag . scroll](https://github.com/nataliemarleny/framer_transitions/blob/master/010_events32.framer/010_events3.gif)  | **[12] Animation** <ul><li>.AnimationStart / .AnimationStop / .AnimationEnd</li></ul> **[13] State** <ul><li>.StateSwitchStart</li><li>.StateSwitchStop / .StateSwitchEnd</li></ul> **[14] Drag** <ul><li>.Move (the layer is moving)</li><li>.Drag / .DragStart / .DragEnd </li><li> .DragAnimationStart / .DragAnimationEnd</li><li> .DirectionLockStart (Did start lock direction?)</li></ul> **[15] Scroll** <ul><li>.Move (the layer is moving)</li><li>.Scroll / .ScrollStart / .ScrollEnd</li><li>.ScrollAnimationDidStart / .ScrollAnimationDidEnd</li></ul>|
 
 | 010 demo 4 | options [14 - 16 / 22] |
 | :---: | :--- |

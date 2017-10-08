@@ -1,9 +1,34 @@
-bg = new BackgroundLayer
-	backgroundColor: "#12b886"
+# Transition Start Attempt
+
+scroll = new ScrollComponent
 	width: Screen.width
 	height: Screen.height
+	scrollHorizontal: false
+
+scrollInside = new Layer
+	parent: scroll.content
+	backgroundColor: "#12b886"
+	width: Screen.width
+	height: Screen.height + 300
+
+scroll.on Events.TransitionStart, ->
+    print "Transition started"
+
+# EdgeSwipe
+
+layerQ = new Layer
+	x: Align.center
+	borderRadius: 5
+	y: 25
+	size: 150
+	backgroundColor: "#099268"
 
 
+Screen.onEdgeSwipe ->
+	layerQ.x = 300
+
+Screen.onEdgeSwipeEnd ->
+	layerQ.x = Align.center
 
 Utils.loadWebFont("Open Sans")
 
@@ -48,16 +73,4 @@ slider.onValueChange ->
 		template:
 			indicate: (slider.value)
 
-layerQ = new Layer
-	x: Align.center
-	borderRadius: 5
-	y: 25
-	size: 150
-	backgroundColor: "#099268"
 
-
-Screen.onEdgeSwipe ->
-	layerQ.x = 300
-
-Screen.onEdgeSwipeEnd ->
-	layerQ.x = Align.center

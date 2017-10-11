@@ -33,6 +33,7 @@ layerF = new Layer
 	y: 275
 	x: 50
 	backgroundColor: "#e8590c"
+	color: "red"
 Utils.labelLayer(layerF, "B")
 
 layerG = new Layer

@@ -139,7 +139,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| |:dizzy: **ANIMATION - STATES** <ul><li>[x] animate</li><li>[x] animationOptions</li></ul>**animationOptions Properties**<br>**(these set the options for all animations performed on the layer unless they are overruled)**<br><ul><li>curve</li><li>curveOptions</li><li>time</li><li>delay</li><li>repeat</li><li>colorModel</li><li>instant</li></ul><br><ul><li>[x] animations()</li><li>[x] isAnimating (read only, boolean)</li><li>[ ] stateSwitch()</li><li>[ ] stateCycle()</li><li>[ ] stateNames</li></ul>**Not Showm**<br><ul><li>[x] animateStop()</li></ul>|
+| :dizzy: **ANIMATION - STATES**<br><br>![gif of layer - animation and states](https://github.com/nataliemarleny/framer_transitions/blob/master/014_layer4.framer/014_events4.gif)|:dizzy: **ANIMATION - STATES** <ul><li>[x] animate</li><li>[x] animationOptions</li></ul>**animationOptions Properties**<br>**(these set the options for all animations performed on the layer unless they are overruled)**<br><ul><li>curve</li><li>curveOptions</li><li>time</li><li>delay</li><li>repeat</li><li>colorModel</li><li>instant</li></ul><br><ul><li>[x] animations()</li><li>[x] isAnimating (read only, boolean)</li><li>[x] stateSwitch()</li><li>[x] stateCycle()</li><li>[x] stateNames</li></ul>**Not Showm**<br><ul><li>[x] animateStop()</li></ul>|
 
 | 014 demo | options [95] |
 | :---: | :--- |

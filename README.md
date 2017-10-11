@@ -139,7 +139,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **ANIMATION - STATES** <ul><li>[ ] animate</li><li>[ ] animationOptions</li><li>[ ] animations()</li><li>[ ] isAnimating</li><li>[ ] animateStop()</li><li>[ ] stateSwitch()</li><li>[ ] stateCycle()</li><li>[ ] stateNames</li></ul>|
+| |:dizzy: **ANIMATION - STATES** <ul><li>[x] animate</li><li>[x] animationOptions</li></ul>**animationOptions Properties**<br>**(these set the options for all animations performed on the layer unless they are overruled)**<br><ul><li>curve</li><li>curveOptions</li><li>time</li><li>delay</li><li>repeat</li><li>colorModel</li><li>instant</li></ul><br><ul><li>[x] animations()</li><li>[x] isAnimating (read only, boolean)</li><li>[ ] stateSwitch()</li><li>[ ] stateCycle()</li><li>[ ] stateNames</li></ul>**Not Showm**<br><ul><li>[x] animateStop()</li></ul>|
 
 | 014 demo | options [95] |
 | :---: | :--- |

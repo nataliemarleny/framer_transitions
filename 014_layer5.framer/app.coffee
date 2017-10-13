@@ -15,25 +15,22 @@ layerA = new Layer
 		x: 10
 		blur: 1
 		color: "rgba(0,0,0,0.1)"
-		spread: 4 # need to animate spread to show what it is
+		spread: 10 # need to animate spread to show what it is
 		type: "outer"
+
+animationA = new Animation layerA,
+	shadow1:
+		spread: 1
+
+layerA.onTap ->
+	animationA.start()
+
+# note - background blur will not work on all layers
 
 layerB = new Layer
 	y: 250
-	x: Align.center()
-
-layerC = new Layer
-	x: Align.center()
-	y: Align.bottom(-50)
-	backgroundColor: "#fd7e14"
-	shadow2:
-		y: 10
-		x: 10
-		blur: 1
-		color: "rgba(0,0,0,0.1)"
-		spread: 4 # need to animate spread to show what it is
-		type: "inner"
-
+	x: Align.center
+	backgroundBlur: 10 # cannot see any difference!
 
 # Inspect Shadows
 # print layerA.shadows
@@ -47,4 +44,13 @@ layerC = new Layer
 # Copy shadows
 layerB.shadows = layerA.shadows
 
-
+layerC = new Layer
+	x: Align.center
+	y: Align.bottom(-50)
+	shadow2:
+		y: 10
+		x: 10
+		blur: 1
+		color: "rgba(0,0,0,0.1)"
+		spread: 10 # need to animate spread to show what it is
+		type: "inner"

@@ -143,7 +143,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **SHADOWS - BLUR** <ul><li>[ ] blur</li><li>[ ] backgroundBlur</li><li>[ ] blending</li><li>[ ] shadows</li><li>[ ] shadowX</li><li>[ ] shadowY</li><li>[ ] shadowBlur</li><li>[ ] shadowSpread</li><li>[ ] shadowColor</li><li>[ ] shadowType</li></ul>|
+|:waning_gibbous_moon: **SHADOWS - BLENDING**<br><br> ![gif of layer - shadows and blending](https://github.com/nataliemarleny/framer_transitions/blob/master/014_layer4.framer/014_layer5.gif) | :waning_gibbous_moon: **SHADOWS - BLENDING** <ul><li>[x] blur</li><li>[x] backgroundBlur (couldn't tell any difference, does not work all the time)</li><li>[x] shadows</li><li>[x] shadowX</li><li>[x] shadowY</li><li>[x] shadowBlur</li><li>[x] shadowSpread</li><li>[x] shadowColor</li><li>[x] shadowType</li></ul> **Blending - TO ADD**<ul><li>[ ] blending</li></ul><ul><li>Blending.normal (default blending mode)</li><br><li>Blending.darken</li><li>Blending.multiply</li><li>Blending.colorBurn</li><br><li>Blending.lighten</li><li>Blending.screen</li><li>Blending.colorDodge</li><br><li>Blending.overlay</li><li>Blending.softLight</li><li>Blending.hardLight</li><br><li>Blending.difference</li><li>Blending.exclusion</li><br><li>Blending.hue</li><li>Blending.saturation</li><li>Blending.color</li><li>Blending.luminosity</li>|
 
 | 014 demo | options [95] |
 | :---: | :--- |
@@ -200,7 +200,6 @@ Table of Contents
 | 024 demo | options [2] |
 | :---: | :--- |
 | ![gif of states](https://github.com/nataliemarleny/framer_transitions/blob/master/024_states.framer/024-states.gif) |<ul><li>Current</li><li>Previous</li></ul> |
-
 
 ## 025 textLayer
 

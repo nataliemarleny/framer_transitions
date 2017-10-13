@@ -139,7 +139,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| :dizzy: **ANIMATION - STATES**<br><br>![gif of layer - animation and states](https://github.com/nataliemarleny/framer_transitions/blob/master/014_layer4.framer/014_events4.gif)|:dizzy: **ANIMATION - STATES** <ul><li>[x] animate</li><li>[x] animationOptions</li></ul>**animationOptions Properties**<br>**(these set the options for all animations performed on the layer unless they are overruled)**<br><ul><li>curve</li><li>curveOptions</li><li>time</li><li>delay</li><li>repeat</li><li>colorModel</li><li>instant</li></ul><br><ul><li>[x] animations()</li><li>[x] isAnimating (read only, boolean)</li><li>[x] stateSwitch()</li><li>[x] stateCycle()</li><li>[x] stateNames</li></ul>**Not Showm**<br><ul><li>[x] animateStop()</li></ul> **EXTRA** <ul><li>[x] computedStyle()[specific] (note - computationally expensive)</li></ul>|
+| :dizzy: **ANIMATION - STATES**<br><br>![gif of layer - animation and states](https://github.com/nataliemarleny/framer_transitions/blob/master/014_layer4.framer/014_layer4-2.gif)|:dizzy: **ANIMATION - STATES** <ul><li>[x] animate</li><li>[x] animationOptions</li></ul>**animationOptions Properties**<br>**(these set the options for all animations performed on the layer unless they are overruled)**<br><ul><li>curve</li><li>curveOptions</li><li>time</li><li>delay</li><li>repeat</li><li>colorModel</li><li>instant</li></ul><br><ul><li>[x] animations()</li><li>[x] isAnimating (read only, boolean)</li><li>[x] stateSwitch()</li><li>[x] stateCycle()</li><li>[x] stateNames</li></ul>**Not Showm**<br><ul><li>[x] animateStop()</li></ul> **EXTRA** <ul><li>[x] computedStyle()[specific] (note - computationally expensive)</li></ul>|
 
 | 014 demo | options [95] |
 | :---: | :--- |
@@ -147,7 +147,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **CONVERTPOINTTOCANVAS()** <ul><li>[ ] point</li><li>[ ] convertPointToCanvas()</li><li>[ ] convertPointToScreen()</li><li>[ ] convertPointToLayer()</li></ul> **EVENTS**<ul><li>[ ] on()</li><li>[ ] off()</li><li>ignoreEvents (default true)(auto disabled when add events listener)</li></ul>|
+| | **CONVERTPOINTTOCANVAS()** <ul><li>[ ] point</li><li>[ ] convertPointToCanvas()</li><li>[ ] convertPointToScreen()</li><li>[ ] convertPointToLayer()</li></ul> **EVENTS**<ul><li>[ ] on()</li><li>[ ] off()</li><li>[x] ignoreEvents (default true)(auto disabled when add events listener)</li></ul>|
 
 | 014 demo | options [95] |
 | :---: | :--- |
@@ -155,7 +155,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **IN PROGRESS** <li>[ ] color</li><li>[ ] clip</li><li>[ ] ignoreEvents</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li>|
+| | **IN PROGRESS** <li>[ ] color</li><li>[ ] clip</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li>|
 
 ## 017 pageComponent
 

@@ -48,3 +48,5 @@ layerB.onTap ->
 
 # stateNames
 print layerB.stateNames
+
+print layerB.computedStyle()["backgroundColor"]

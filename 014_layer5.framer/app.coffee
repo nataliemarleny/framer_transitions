@@ -4,12 +4,29 @@ bg = new BackgroundLayer
 	backgroundColor: "#ffd8a8"
 
 Framer.Defaults.Layer.borderRadius = 5
-Framer.Defaults.Layer.backgroundColor = "#ff922b";
-Framer.Defaults.Layer.x = Align.center;
+Framer.Defaults.Layer.backgroundColor = "#ff922b"
+Framer.Defaults.Layer.size = 150
 
 layerA = new Layer
-	y: Align.center(50)
+	y: Align.top(50)
+	x: Align.center
 	shadow1:
+		y: 10
+		x: 10
+		blur: 1
+		color: "rgba(0,0,0,0.1)"
+		spread: 4 # need to animate spread to show what it is
+		type: "outer"
+
+layerB = new Layer
+	y: 250
+	x: Align.center()
+
+layerC = new Layer
+	x: Align.center()
+	y: Align.bottom(-50)
+	backgroundColor: "#fd7e14"
+	shadow2:
 		y: 10
 		x: 10
 		blur: 1
@@ -17,13 +34,6 @@ layerA = new Layer
 		spread: 4 # need to animate spread to show what it is
 		type: "inner"
 
-
-layerB = new Layer
-	y: 50
-
-layerC = new Layer
-	x: Align.bottom(10)
-	
 
 # Inspect Shadows
 # print layerA.shadows

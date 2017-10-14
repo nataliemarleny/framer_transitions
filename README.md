@@ -155,7 +155,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **IN PROGRESS** <li>[ ] color</li><li>[ ] clip</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li>|
+| | **IN PROGRESS** <ul><li>[ ] color</li><li>[ ] clip</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li></ul>|
 
 ## 017 pageComponent
 

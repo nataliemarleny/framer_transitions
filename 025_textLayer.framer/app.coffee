@@ -1,3 +1,6 @@
+bg = new BackgroundLayer
+	backgroundColor: "#ffe3e3"
+
 title = new TextLayer
 	text: "Hello {name}"
 	x: Align.center
@@ -24,6 +27,7 @@ title = new TextLayer
 	shadowY: 2
 	shadowBlur: 4;
 	shadowColor: "rgba (0,0,0,0.2)"
+	color: "#e03131"
 
 # set value for template tag
 title.template =
@@ -33,6 +37,7 @@ counter = new TextLayer
 	text: "{count}"
 	x: Align.left(55)
 	y: Align.center
+	color: "#fa5252"
 
 # format template value to only have 2 decimals.
 counter.templateFormatter =
@@ -56,6 +61,7 @@ replace = new TextLayer
 	# hmmm
 	height: 50
 	truncate: true
+	color: "#e03131"
 
 # text.textReplace (from, to)
 replace.textReplace("replace", "Lorem ipsum dolor sit amet, consectetur adipiscing eli")

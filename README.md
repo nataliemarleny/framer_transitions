@@ -103,7 +103,7 @@ Table of Contents
 
 | 010 demo 6 | options [20 - 22 / 22] |
 | :---: | :--- |
-| **Events 6**<br>Force Tap . Pan <br><br> ![gif of events value](https://github.com/nataliemarleny/framer_transitions/blob/master/010_events4.framer/010_eventsvalue.gif)  | **[2] Force Tap** :iphone: <ul><li>.onForceTap / .onForceTapStart</li><li>.onForceTapChange</li><li>.onForceTapEnd</li></ul> **[5] Pan** :iphone: <ul><li>.Pan / .PanStart / .PanMove / .PanEnd</li><li>.PanLeft / .PanRight / .PanUp / .PanDown</li></ul>|
+| **Events 6**<br>Force Tap . Pan <br><br> ![gif of events value](https://github.com/nataliemarleny/framer_transitions/blob/master/010_events/010_events4.framer/010_eventsvalue.gif)  | **[2] Force Tap** :iphone: <ul><li>.onForceTap / .onForceTapStart</li><li>.onForceTapChange</li><li>.onForceTapEnd</li></ul> **[5] Pan** :iphone: <ul><li>.Pan / .PanStart / .PanMove / .PanEnd</li><li>.PanLeft / .PanRight / .PanUp / .PanDown</li></ul>|
 
 ## 011 extras
 

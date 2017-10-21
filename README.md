@@ -155,7 +155,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **HTML AND CSS** <ul><li>[x] clip (disabled by default - if parent clips children)</li><li>[x] html (best to use this in conjunction with ignoreEvents = false)<br>Remeber: only available after Framer has rendered them<br>Used to insert html content into a layer</li><li>[x] style (get CSS variables for a property)</li><li>[x] classList</li><li>[x] destroy()(remove a layer and its children)</li><li>[x] copy()(note: will not copy layer listeners)</li><li>[x] copySingle()(copies a layer without its children)</li></ul> **IN PROGRESS** <ul><li>[ ] color</li></ul>|
+| :computer: **HTML AND CSS**<br><br> ![gif of layer - html and css](https://github.com/nataliemarleny/framer_transitions/blob/master/014_layer/014_layer8.framer/014layer_8.gif)| :computer: **HTML AND CSS** <ul><li>[x] clip (disabled by default - if parent clips children)</li><li>[x] html (best to use this in conjunction with ignoreEvents = false)<br>Remeber: only available after Framer has rendered them<br>Used to insert html content into a layer</li><li>[x] style (get CSS variables for a property)</li><li>[x] classList</li><li>[x] destroy()(remove a layer and its children)</li><li>[x] copy()(note: will not copy layer listeners)</li><li>[x] copySingle()(copies a layer without its children)</li><li>[x] color (as with css - this is for text and not background layer)</li></ul>|
 
 ## 017 pageComponent
 

@@ -151,11 +151,11 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **DYNAMIC CENTERING** <ul><li>[ ] center()</li><li>[ ] centerX()</li><li>[ ] centerY()</li><li>[ ] pixelAlign()</li></ul> **FRAMES** <ul><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li>|
+| | **DYNAMIC CENTERING** <ul><li>[ ] center()</li><li>[ ] centerX()</li><li>[ ] centerY()</li><li>[ ] pixelAlign()</li></ul> **FRAMES** <ul><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li></ul> **MOVING AROUND** <li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li></ul> |
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **IN PROGRESS** <ul><li>[ ] color</li><li>[ ] clip</li><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li><li>[ ] html</li><li>[ ] style</li><li>[ ] classList</li><li>[ ] destroy()</li><li>[ ] copy()</li><li>[ ] copySingle()</li></ul>|
+| | **HTML AND CSS** <ul><li>[x] clip (disabled by default - if parent clips children)</li><li>[x] html (best to use this in conjunction with ignoreEvents = false)<br>Remeber: only available after Framer has rendered them<br>Used to insert html content into a layer</li><li>[x] style (get CSS variables for a property)</li><li>[x] classList</li><li>[x] destroy()(remove a layer and its children)</li><li>[x] copy()(note: will not copy layer listeners)</li><li>[x] copySingle()(copies a layer without its children)</li></ul> **IN PROGRESS** <ul><li>[ ] color</li></ul>|
 
 ## 017 pageComponent
 

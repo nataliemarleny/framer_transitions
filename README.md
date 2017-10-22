@@ -173,7 +173,7 @@ Table of Contents
 
 | 019 demo | options [0] |
 | :---: | :--- |
-| ![gif of print](https://github.com/nataliemarleny/framer_transitions/blob/master/019_print.framer/019_print.gif) | Want to use this section to show print in context |
+| ![gif of print](https://github.com/nataliemarleny/framer_transitions/blob/master/019_print.framer/019_print.gif) | Acts in a similar manner to console.log() in JavaScript.<br><br> Want to use this section to show print in context |
 
 ## 020 rangeSliderComponent
 

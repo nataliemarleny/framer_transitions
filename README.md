@@ -203,7 +203,7 @@ Table of Contents
 
 | 024 demo | options [2] |
 | :---: | :--- |
-| ![gif of states](https://github.com/nataliemarleny/framer_transitions/blob/master/024_states.framer/024-states.gif) |<ul><li>Current</li><li>Previous</li></ul> |
+| ![gif of states](https://github.com/nataliemarleny/framer_transitions/blob/master/024_states.framer/024-states.gif) |<ul><li>Default<br>The initially active state</li><li>Current<br>The currently active state</li><li>Previous <br> The previously active state</li></ul> |
 
 ## 025 textLayer
 

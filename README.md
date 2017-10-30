@@ -1,6 +1,5 @@
 # framer_transitions
-Reference for Framer Transitions - Illustrated Framer Docs
-- Status: In Progress
+Reference for Framer Transitions - The Illustrated Framer Docs
 
 Table of Contents
 * [001 Align](#001-align-and-offset)
@@ -223,6 +222,13 @@ Table of Contents
 | :---: | :--- |
 | ![gif of videoLayer](https://github.com/nataliemarleny/framer_transitions/blob/master/027_videolayer.framer/027_videolayer_update.gif) | **layerA = new VideoLayer** <br><br> :movie_camera: <ul><li> new VideoLayer: </li> video: "name.mp4"<li> .player.autoplay = true</li><li> .player.fastSeek(2)</li></ul>
 
+## To complete:
+<ul>
+ <li>[ ] Understand point to canvas commands</li>
+ <li>[ ] Use folds to improve readability of raw framer files</li>
+ <li>[ ] Investigate 016 Modules</li>
+ <li>[ ] Investigate 015 MIDI Component</li>
+</ul>
 
 ## Credits:
 RayPS - iPhone X Framer device mockup from: https://gist.github.com/RayPS/0a21af6cf3b0578ffab62c604b5ea6e2

@@ -1,9 +1,41 @@
-scroll = new ScrollComponent
+# Info Cards ScrollComponent
+
+scroll2 = new ScrollComponent
 	width: screen.width
 	height: screen.height
+	scrollHorizontal: false
+	scrollVertical: true
 	backgroundColor: "#5f3dc4"
+
+layerAC = new Layer
+	parent: scroll2.content
+	width: 250
+	height: screen.height + 500
+	backgroundColor: "#fc106"
+
+scroll2.contentInset =
+	top: 175
+	left: 35
+
+layerBC = new Layer
+	height: 250
+	width: 250
+	borderRadius: 5
+	parent: layerAC
+	backgroundColor: "#f3f0ff"
+
+for i in [0..7]
+	newInfo=layerBC.copy()
+	newInfo.y=(layerBC.height+15)*(i+1)
+	newInfo.parent=layerAC
+
+# Stories ScrollComponent
+
+scroll = new ScrollComponent
+	width: screen.width
 	scrollHorizontal: true
-	scrollVertical: false
+	scrollVertical: true
+	directionLock: false
 
 layerA = new Layer
 	parent: scroll.content
@@ -20,35 +52,23 @@ layerB = new Layer
 	backgroundColor: "#f3f0ff"
 	parent: layerA
 
-scroll2 = new ScrollComponent
-	width: screen.width
-	height: screen.height
-	scrollHorizontal: false
-	scrollVertical: true
-
-layerAC = new Layer
-	parent: scroll2.content
-	width: screen.width
-	height: screen.height
-	backgroundColor: "#fc6106"
-
-scroll2.contentInset =
-	top: 175
-
-layerC = new Layer
-	backgroundColor: "#f3f0ff"
-	borderRadius: 5
-	x: Align.center
-	parent: layerAC
-	width: 150
-
-for i in [0..7]
+for i in [0..15]
 	newCard=layerB.copy()
 	newCard.x=(layerB.width+15)*(i+1)
 	newCard.parent=layerA
+
+# Faux navBar
+navBar = new Layer
+	height: 60
+	width: screen.width
+	backgroundColor: "b197fc"
+
 
 # scroll.contentInset
 # gives content extra padding between the constraints and the actual content layers
 
 scroll.contentInset =
 	left: 20
+
+# scroll.directionLock
+# only allow scrolling in one direction at a time

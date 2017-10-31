@@ -6,6 +6,7 @@ scroll2 = new ScrollComponent
 	scrollHorizontal: false
 	scrollVertical: true
 	backgroundColor: "#5f3dc4"
+	speedY: 0.5
 
 layerAC = new Layer
 	parent: scroll2.content
@@ -35,18 +36,23 @@ scroll = new ScrollComponent
 	width: screen.width
 	scrollHorizontal: true
 	scrollVertical: true
-	directionLock: false
+	directionLock: true
+	speedX: 0.5
+
+scroll.directionLockThreshold =
+	x: 0
+	y: 100
 
 layerA = new Layer
 	parent: scroll.content
 	backgroundColor: "#5f3dc4"
 	width: screen.width + 60
 	height: 100
-	y: Align.top(50)
+	y: Align.top(60)
 
 layerB = new Layer
-	height: layerA.height - 50
-	width: layerA.height - 50
+	height: layerA.height - 40
+	width: layerA.height - 40
 	borderRadius: 100
 	y: Align.center
 	backgroundColor: "#f3f0ff"
@@ -63,12 +69,29 @@ navBar = new Layer
 	width: screen.width
 	backgroundColor: "b197fc"
 
-
 # scroll.contentInset
 # gives content extra padding between the constraints and the actual content layers
 
 scroll.contentInset =
 	left: 20
 
-# scroll.directionLock
+# scroll.directionLock = true
 # only allow scrolling in one direction at a time
+
+# scroll.speed
+
+# scroll.direction - read only and scroll.isMoving
+# use to print direction (note: inverse of direction of drag action)
+
+scroll.on Events.Scroll, ->
+	print scroll.direction
+	print scroll.isMoving
+
+# scroll.directionLockThreshold
+# stipulates the x and y coordinates before directionLock is triggered
+
+# scroll.velocity and scroll.angle and scroll.isDragging
+scroll2.on Events.Scroll, ->
+	print scroll2.velocity
+	print scroll2.angle
+	print scroll2.isDragging

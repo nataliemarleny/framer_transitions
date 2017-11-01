@@ -228,6 +228,10 @@ Table of Contents
  <li>[ ] Use folds to improve readability of raw framer files</li>
  <li>[ ] Investigate 016 Modules</li>
  <li>[ ] Investigate 015 MIDI Component</li>
+ <li>[ ] Understand blending in events</li>
+ <li>[ ] Finish 014 layers</li>
+ <li>[ ] Finish 010 events</li>
+ <li>[ ] Change colors on 026 Utils</li>
 </ul>
 
 ## Credits:

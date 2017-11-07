@@ -150,7 +150,7 @@ Table of Contents
 
 | 014 demo | options [95] |
 | :---: | :--- |
-| | **DYNAMIC CENTERING** <ul><li>[ ] center()</li><li>[ ] centerX()</li><li>[ ] centerY()</li><li>[ ] pixelAlign()</li></ul> **FRAMES** <ul><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li></ul> **MOVING AROUND** <ul><li>[ ] originX</li><li>[ ] originY</li><li>[ ] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[ ] rotationX</li><li>[ ] rotationY</li></ul> |
+| | **DYNAMIC CENTERING** <ul><li>[x] center()</li><li>[x] centerX()</li><li>[x] centerY()</li><li>[ ] pixelAlign()</li></ul> **FRAMES** <ul><li>[ ] screenFrame</li><li>[ ] contentFrame()</li><li>[ ] centerFrame()</li></ul> **MOVING AROUND** <ul><li>[x] originX</li><li>[x] originY</li><li>[x] originZ</li><li>[ ] perspective</li><li>[ ] flat</li><li>[ ] backfaceVisible</li><li>[x] rotationX</li><li>[ ] rotationY</li></ul> |
 
 | 014 demo | options [95] |
 | :---: | :--- |

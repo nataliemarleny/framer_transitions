@@ -17,3 +17,11 @@ layerC.centerY(250)
 layerC.originZ = -45
 layerC.rotationY = 90
 
+#pixelAlign
+#screenFrame
+#contentFrame
+#centerFrame
+#perspective
+#flat
+#backfaceVisible
+#rotationY

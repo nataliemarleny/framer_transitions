@@ -232,6 +232,7 @@ Table of Contents
  <li>[ ] Finish 014 layers</li>
  <li>[ ] Finish 010 events</li>
  <li>[ ] Change colors on 026 Utils</li>
+ <li>[ ] More in context examples</li>
 </ul>
 
 ## Credits:

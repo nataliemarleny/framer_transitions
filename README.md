@@ -1,5 +1,5 @@
-# framer_transitions
-Reference for Framer Transitions - The Illustrated Framer Docs
+# The Illustrated Framer Docs
+Source: https://framer.com/docs/
 
 Table of Contents
 * [001 Align](#001-align-and-offset)

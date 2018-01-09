@@ -6,7 +6,7 @@
   "contentScale" : 1,
   "fullScreen" : false,
   "cachedDeviceWidth" : 375,
-  "deviceType" : "custom",
+  "deviceType" : "apple-iphone-x-space-gray",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
@@ -16,10 +16,9 @@
   "selectedHand" : "",
   "showBezel" : true,
   "foldedCodeRanges" : [
-    "{0, 389}",
-    "{392, 129}",
-    "{522, 63}",
-    "{586, 55}"
+    "{79, 129}",
+    "{209, 63}",
+    "{273, 55}"
   ],
   "deviceScale" : "fit"
 }

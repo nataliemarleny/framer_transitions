@@ -1,4 +1,8 @@
-# create a new layer and positions it in the center
+#########################
+#  001 - Layer          #
+#########################
+
+# Create a new layer and position it in the center
 
 layerA = new Layer
 	x: Align.center
@@ -6,7 +10,7 @@ layerA = new Layer
 	backgroundColor: "#212529"
 	borderRadius: 20
 
-# create a state cycle
+# Create a state cycle
 
 layerA.states =
 	stateA:

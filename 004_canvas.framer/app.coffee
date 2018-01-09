@@ -1,16 +1,26 @@
-Canvas.backgroundColor = "#862e9c"
+Canvas.backgroundColor = "#f3d9fa"
+
+# Set Gradients
+lightPurple = new Gradient
+	start: "#eebefa"
+	end: "#da77f2"
+
+darkPurple = new Gradient
+	start: "be4bdb"
+	end: "9c36b5"
+	angle: 45
 
 layerA = new Layer
 	height: screen.height
 	width: screen.width
-	backgroundColor: "white"
+	backgroundColor: "#fefefe"
 
 layerB = new Layer
 		x: Align.left(25)
 		y: Align.top(50)
-		size: 150
+		size: 100
 		borderRadius: 300
-		backgroundColor: "#ae3ec9"
+		gradient: lightPurple
 
 layerB.states =
 	stateA:
@@ -18,14 +28,18 @@ layerB.states =
 		y: Align.bottom(-200)
 		size: 600
 		borderRadius: 600
-		backgroundColor: "e599f7"
+		gradient: darkPurple
 
 layerB.onTap -> layerB.stateCycle()
 
-layerB.on "change:y", ->
+
+layerB.onTap ->
 	Canvas.animate
 	Canvas.backgroundColor = "#862e9c" 
-	# can also be a hosted image if set to a url
+
+# Canvas.image Options
+	# can be a local image if added to ./images
+	# can be a hosted image if set to a url
 
 # Read Only Values
 

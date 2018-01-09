@@ -2,11 +2,11 @@
   "orientation" : 0,
   "updateDelay" : 0.3,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 667,
+  "cachedDeviceHeight" : 812,
   "contentScale" : 1,
   "fullScreen" : false,
   "cachedDeviceWidth" : 375,
-  "deviceType" : "apple-iphone-7-silver",
+  "deviceType" : "apple-iphone-x-space-gray",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
@@ -16,7 +16,7 @@
   "selectedHand" : "",
   "showBezel" : true,
   "foldedCodeRanges" : [
-
+    "{541, 104}"
   ],
   "deviceScale" : "fit"
 }

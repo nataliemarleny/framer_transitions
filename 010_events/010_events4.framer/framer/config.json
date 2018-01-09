@@ -2,11 +2,11 @@
   "orientation" : 0,
   "updateDelay" : 0.3,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 568,
+  "cachedDeviceHeight" : 812,
   "contentScale" : 1,
-  "cachedDeviceWidth" : 320,
+  "cachedDeviceWidth" : 375,
   "fullScreen" : false,
-  "deviceType" : "apple-iphone-5s-space-gray",
+  "deviceType" : "apple-iphone-x-space-gray",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
@@ -16,9 +16,7 @@
   "selectedHand" : "",
   "showBezel" : 0,
   "foldedCodeRanges" : [
-    "{0, 323}",
-    "{324, 203}",
-    "{560, 733}"
+    "{845, 734}"
   ],
   "deviceScale" : "fit"
 }

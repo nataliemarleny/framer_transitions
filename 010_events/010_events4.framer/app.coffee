@@ -1,23 +1,37 @@
+#########################
+#  010 - Events pt.4    #
+#########################
+
 # Transition Start Attempt
 
-scroll = new ScrollComponent
-	width: Screen.width
+# scroll = new ScrollComponent
+# 	width: Screen.width
+# 	height: Screen.height
+# 	scrollHorizontal: false
+# 
+# scrollInside = new Layer
+# 	parent: scroll.content
+# 	backgroundColor: "#12b886"
+# 	width: Screen.width
+# 	height: Screen.height + 300
+# 
+# scroll.on Events.TransitionStart, ->
+#     print "Transition started"
+
+layerA = new Layer
 	height: Screen.height
-	scrollHorizontal: false
 
-scrollInside = new Layer
-	parent: scroll.content
-	backgroundColor: "#12b886"
-	width: Screen.width
-	height: Screen.height + 300
+flow = new FlowComponent
+flow.showOverlayRight(layerA)
 
-scroll.on Events.TransitionStart, ->
-    print "Transition started"
+flow.on Events.TransitionEnd, ->
+	print "Transition ended"
 
 # EdgeSwipe
 
 layerQ = new Layer
-	x: Align.center
+	x: Align.center()
+	y: Align.center()
 	borderRadius: 5
 	y: 25
 	size: 150

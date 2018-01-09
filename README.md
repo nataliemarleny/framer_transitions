@@ -52,7 +52,7 @@ Table of Contents
 
 | 004 demo | options [10] |
 | :---: | :--- |
-| ![gif of canvas](https://github.com/nataliemarleny/framer_transitions/blob/master/004_canvas.framer/004_canvas_.gif)  | **Note: Canvas only works when viewing :iphone:**<br><br> :grapes: <ul><li>Canvas.backgroundColor = "#862e9c"</li><li>Canvas.image = "bg-canvas.png"</li></ul> :straight_ruler: - Printed<ul><li>Canvas.width</li><li>Canvas.height</li><li>Canvas.size</li><li>Canvas.frame</li></ul> **Not Shown** <ul><li>Canvas.convertPointToScreen(point)</li><li>Canvas.convertPointToLayer(point, layer)</li></ul>|
+| ![gif of canvas](https://github.com/nataliemarleny/framer_transitions/blob/master/004_canvas.framer/004-canvas-.gif)  | **Note: Canvas only works when viewing :iphone:**<br><br> :grapes: <ul><li>Canvas.backgroundColor = "#862e9c"</li><li>Canvas.image = "bg-canvas.png"</li></ul> :straight_ruler: - Printed<ul><li>Canvas.width</li><li>Canvas.height</li><li>Canvas.size</li><li>Canvas.frame</li></ul> **Not Shown** <ul><li>Canvas.convertPointToScreen(point)</li><li>Canvas.convertPointToLayer(point, layer)</li></ul>|
 
 ## 005 color
 

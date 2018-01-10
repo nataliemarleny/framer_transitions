@@ -15,25 +15,18 @@ teal5 = new Color("#087f5b")
 
 layerA = new Layer
 	height: Screen.height
-	backgroundColor: teal2
 
 flow = new FlowComponent
-flow.showOverlayRight(layerA)
-
-layerP = new Layer
-	height: Screen.height
-	width: Screen.width
+flow.header = layerA
 
 flow.on Events.TransitionEnd, ->
-	layerP.backgroundColor = teal4
-
-
+	layerA.backgroundColor = "purple"
 
 # Define Layer
 
 sqBg = new Layer
 	x: Align.center()
-	y: Align.center()
+	y: Align.top(100)
 	size: 300
 	borderRadius: 5
 	backgroundColor: "#111111"
@@ -72,20 +65,21 @@ Utils.loadWebFont("Open Sans")
 
 # Define Slider
 slider = new SliderComponent
-	x: Align.center
-	y: Align.top(100)
+	x: Align.left(40)
+	y: Align.center(50)
 	backgroundColor: "#20c997"
 	min: 0
 	max: 100
-	width: Screen.width - 100
+	width: Screen.width - 200
 
 slider.knob.draggable.momentum = false
 slider.fill.backgroundColor = "#ebfbee"
 slider.animateToValue(20, { curve: Spring })
 
-layerA = new Layer
-	size: 100
-	borderRadius: 100
+# Slider Information
+sliderValueBtn = new Layer
+	size: 75
+	borderRadius: 5
 	y: 20
 	backgroundColor: "#099268"
 	opacity: 1
@@ -93,9 +87,9 @@ layerA = new Layer
 	y: Align.bottom(-100)
 
 textA = new TextLayer
-	parent: layerA
-	x: 22
-	y: 16
+	parent: sliderValueBtn
+	x: Align.center
+	y: Align.center
 	fontFamily: "Open Sans"
 	fontWeight: 400
 	fontSize: 48
@@ -106,6 +100,8 @@ textA.templateFormatter =
 	indicate: (value) ->
 		Utils.round(slider.value)
 
+
+# Make use of slider.onValueChange ->
 slider.onValueChange ->
 	textA.animate
 		template:
@@ -114,5 +110,4 @@ slider.onValueChange ->
 		options:
 			time: 0.1
 		borderRadius: (slider.value)
-
 

@@ -1,4 +1,8 @@
+bg = new BackgroundLayer
+	backgroundColor: "#d9480f"
+
 layerA = new Layer
+	backgroundColor: ""
 
 layerA.centerX()
 layerA.rotationX = 45

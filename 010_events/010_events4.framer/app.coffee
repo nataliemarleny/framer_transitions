@@ -11,6 +11,8 @@ teal4 = new Color("#0ca678")
 teal5 = new Color("#087f5b")
 
 
+# Set Background
+
 bg = new Layer
 	height: Screen.height
 	width: Screen.width

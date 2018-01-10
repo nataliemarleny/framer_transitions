@@ -1,7 +1,7 @@
 {
   "orientation" : 0,
   "updateDelay" : 0.3,
-  "designModeSelected" : 0,
+  "designModeSelected" : 1,
   "cachedDeviceHeight" : 812,
   "contentScale" : 1,
   "cachedDeviceWidth" : 375,
@@ -14,11 +14,11 @@
   "projectId" : "1A814363-F815-4648-A0D2-188E9CDB8D51",
   "deviceOrientation" : 0,
   "selectedHand" : "",
-  "showBezel" : 0,
+  "showBezel" : false,
   "foldedCodeRanges" : [
     "{79, 159}",
-    "{686, 203}",
-    "{892, 140}"
+    "{576, 203}",
+    "{923, 906}"
   ],
   "deviceScale" : "fit"
 }

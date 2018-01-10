@@ -11,16 +11,10 @@ teal4 = new Color("#0ca678")
 teal5 = new Color("#087f5b")
 
 
-# flow.on Events.Transition* , ->
-
-layerA = new Layer
+bg = new Layer
 	height: Screen.height
-
-flow = new FlowComponent
-flow.header = layerA
-
-flow.on Events.TransitionEnd, ->
-	layerA.backgroundColor = "purple"
+	width: Screen.width
+	backgroundColor: teal4
 
 # Define Layer
 
@@ -65,7 +59,7 @@ Utils.loadWebFont("Open Sans")
 
 # Define Slider
 slider = new SliderComponent
-	x: Align.left(40)
+	x: Align.left(41)
 	y: Align.center(50)
 	backgroundColor: "#20c997"
 	min: 0
@@ -78,28 +72,28 @@ slider.animateToValue(20, { curve: Spring })
 
 # Slider Information
 sliderValueBtn = new Layer
-	size: 75
+	width: 75
+	height: 40
 	borderRadius: 5
 	y: 20
 	backgroundColor: "#099268"
 	opacity: 1
-	x: Align.center()
-	y: Align.bottom(-100)
+	x: Align.right(-40)
+	y: Align.center(50)
 
 textA = new TextLayer
 	parent: sliderValueBtn
-	x: Align.center
-	y: Align.center
 	fontFamily: "Open Sans"
 	fontWeight: 400
-	fontSize: 48
+	fontSize: 25
+	x: 22
+	y: 3
 	text: "{indicate}"
 	color: "#ffffff"
 
 textA.templateFormatter = 
 	indicate: (value) ->
 		Utils.round(slider.value)
-
 
 # Make use of slider.onValueChange ->
 slider.onValueChange ->
@@ -110,4 +104,3 @@ slider.onValueChange ->
 		options:
 			time: 0.1
 		borderRadius: (slider.value)
-

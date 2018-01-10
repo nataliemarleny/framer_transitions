@@ -25,7 +25,7 @@ sqBg = new Layer
 	borderRadius: 5
 	backgroundColor: "#111111"
 
-layerQ = new Layer
+shapeShifter = new Layer
 	x: Align.center()
 	y: Align.center()
 	borderRadius: 5
@@ -33,25 +33,58 @@ layerQ = new Layer
 	parent: sqBg
 	backgroundColor: teal5
 
-# Define States
-layerQ.states  =
-	state1:
-		backgroundColor: teal1
-	state2:
-		backgroundColor: teal2
-	state3:
-		backgroundColor: teal3
-	state4:
-		backgroundColor: teal4
-	state5:
-		backgroundColor: teal5
-
-
-
 # .onEdgeSwipe*
 
-Screen.onEdgeSwipe ->
-	layerQ.stateCycle("state1", "state2", "state3", "state4", "state5")
+groupEdge = new Layer
+	width: Screen.width
+	height: 250
+	y: Align.bottom(150)
+	backgroundColor: teal2
+
+groupEdgeText = new TextLayer
+	text: "View More Colors"
+	parent: groupEdge
+	color: "#111111"
+	fontSize: 20
+	y: 10
+	x: 10
+
+coloring0 = new Layer
+	width: Screen.width/5
+	y: Align.bottom()
+	backgroundColor: "#ffd43b"
+	parent: groupEdge
+
+coloring1 = new Layer
+	width: Screen.width/5
+	x: 1*(Screen.width/5)
+	y: Align.bottom()
+	backgroundColor: "#ff922b"
+	parent: groupEdge
+
+coloring2 = new Layer
+	width: Screen.width/5
+	x: 2*(Screen.width/5)
+	backgroundColor: "#f06595"
+	y: Align.bottom()
+	parent: groupEdge
+
+coloring3 = new Layer
+	width: Screen.width/5
+	y: Align.bottom
+	x: 3*(Screen.width/5)
+	backgroundColor: "#be4bdb"
+	parent: groupEdge
+
+coloring4 = new Layer
+	width: Screen.width/5
+	y: Align.bottom
+	x: 4*(Screen.width/5)
+	backgroundColor: teal1
+	parent: groupEdge
+
+Screen.onEdgeSwipeBottom ->
+	groupEdge.y = Align.bottom
 
 Utils.loadWebFont("Open Sans")
 
@@ -100,7 +133,7 @@ slider.onValueChange ->
 	textA.animate
 		template:
 			indicate: (slider.value)
-	layerQ.animate
+	shapeShifter.animate
 		options:
 			time: 0.1
 		borderRadius: (slider.value)

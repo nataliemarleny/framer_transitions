@@ -1,19 +1,19 @@
 # Modulate
 # Can be used to create scrolling parallax
-scroll = new ScrollComponent
+scroll = new ParallaxScrollComponent
 	backgroundColor: "#f6c106"
 	scrollHorizontal: false
 	height: 600
 
 layerPara = new Layer
-    x: 500
-    x: Align.center
-    backgroundColor: "fc6106"
+	x: 500
+	x: Align.center
+	backgroundColor: "fc6106"
  
 # Modulate the scrolling distance 
 scroll.on Events.Move, ->
-    y = Utils.modulate(scroll.scrollY, [0,100], [0,10])
-    layerPara.y = y
+	y = Utils.modulate(scroll.scrollY, [0,100], [0,10])
+	layerPara.y = y
 
 # Cycle()
 # creates a function that returns the next value of an array every time it is called.
